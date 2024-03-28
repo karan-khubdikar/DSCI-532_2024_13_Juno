@@ -18,3 +18,7 @@ When Marci opens our 'Girl Boss' app, she will see a map of Canada, which she ca
 As a result, Marci decides to consult industry leaders and experts in the construction industry to understand the changes they made to encourage more gender-equal outcomes, while commissioning a directorate based in British Columbia to investigate ways to improve gender equality in the province, with a special focus on the energy industry.
 
 # 4. App sketch and description
+
+![App Sketch]('img/sketch.png')
+
+The app contains the landing page which shows the graph containing the % of women in the top leadership positions for all the provinces in Canada. The left-hand side of the page contains the filters to be applied to dive further. Filter options are available for province, year, and checklist for the corporation type and industries. The user can select a specific province to look into or restrict the year for which they want to consider the data. The province can be selected by clicking on the map or by using the dropdown. The top right corner displays the overall percentage of women and men and based on the filters applied, these numbers would be updated. Just below these overall numbers, we have 2 graphs, a pie chart showing the distribution across industries and a bar graph showing the distribution across the corporation types. We also have a line graph below the map which depicts the yearly trend showing the % of women and men at the top positions.
