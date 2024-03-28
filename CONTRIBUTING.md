@@ -39,7 +39,7 @@ We are thrilled that you're interested in contributing to doeasyeda! Your contri
 
 ### 1. Reporting Bugs 🐛
 
- **Where to Report** : If you find a bug, please report it at our issues page: [https://github.com/UBC-MDS/doeasyeda/issues](https://github.com/UBC-MDS/doeasyeda/issues)
+ **Where to Report** : If you find a bug, please report it at our issues page: [https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/issues](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/issues)
 
  **What to Include in Your Bug Report** :
 
@@ -51,13 +51,13 @@ We appreciate as much detail as possible so we can replicate and address the bug
 
 ### 2. Fixing Bugs 🛠️
 
- **Finding Bugs to Fix** : Browse through our [GitHub Issues](https://github.com/UBC-MDS/doeasyeda/issues). Look for issues tagged with both "bug" and "help wanted".
+ **Finding Bugs to Fix** : Browse through our [GitHub Issues](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/issues). Look for issues tagged with both "bug" and "help wanted".
 
  **Process** : If you see an open bug you'd like to tackle, comment on the issue to let the community know you're working on it. This prevents duplicative efforts.
 
 ### 3. Implementing Features ✨
 
- **Finding Features to Implement** : Our [GitHub Issues](https://github.com/UBC-MDS/doeasyeda/issues) page is also the place to find new features to implement. Look for issues tagged with "enhancement" and "help wanted".
+ **Finding Features to Implement** : Our [GitHub Issues](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/issues) page is also the place to find new features to implement. Look for issues tagged with "enhancement" and "help wanted".
 
  **Guidelines for Implementation** :
 
@@ -76,7 +76,7 @@ We appreciate as much detail as possible so we can replicate and address the bug
 
 ### 5. Submitting Feedback and Suggestions 💡
 
- **How to Submit Feedback** : The preferred way to submit feedback or feature suggestions is through our [Issues Page](https://github.com/UBC-MDS/doeasyeda/issues).
+ **How to Submit Feedback** : The preferred way to submit feedback or feature suggestions is through our [Issues Page](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/issues).
 
  **Proposing a Feature** :
 
@@ -86,65 +86,35 @@ We appreciate as much detail as possible so we can replicate and address the bug
 
 ## Get Started!
 
-1. Fork the `doeasyeda` repo on GitHub.
+1. Fork the `DSCI-532_2024_13_Juno` repo on GitHub.
 2. Clone your fork locally:
 
    ```
-   git clone git@github.com:UBC-MDS/doeasyeda.git
+   https://github.com/UBC-MDS/DSCI-532_2024_13_Juno.git
    ```
-3. Install your local copy with Poetry, this is how you set up your fork for local development:
-
-   ```
-   cd doeasyeda/
-   poetry install
-   ```
-4. Create a branch for local development:
+3. Create a branch for local development:
 
    ```
    git checkout -b name-of-your-bugfix-or-feature
    ```
 
    Now you can make your changes locally.
-5. When you're done making changes, check that your changes pass the tests by running pytest
-
-   ```
-   poetry run pytest
-   ```
-6. Commit your changes and push your branch to GitHub:
+4. When you're done making changes, commit your changes and push your branch to GitHub:
 
    ```
    git add .
    git commit -m "Your detailed description of your changes."
    git push origin name-of-your-bugfix-or-feature
    ```
-7. Submit a pull request through the GitHub website.
-
-### Tips
-
-To run a subset of tests:
-
-```
-py.test tests.test_convertempPy
-```
-
-### Deploying
-
-A reminder for the maintainers on how to deploy:
-
-* Ensure the following secrets are recorded on GitHub:
-  * CODECOV_TOKEN
-  * PYPI_USERNAME
-  * PYPI_PASSWORD
-
-GitHub Actions should build and deploy to testPyPI when a pull request is merged into master.
+5. Submit a pull request through the GitHub website.
 
 ### A Friendly Reminder
 
-Remember, doeasyeda is a community-driven project. Your contributions, whether large or small, are incredibly valuable to us. We strive to create a welcoming and inclusive environment, so we encourage you to join us in developing this project!
+Remember, Juno is a community-driven project. Your contributions, whether large or small, are incredibly valuable to us. We strive to create a welcoming and inclusive environment, so we encourage you to join us in developing this project!
 
 ## Code of Conduct
 
-Please note that this project is released with a [Code of Conduct](https://github.com/UBC-MDS/doeasyeda/blob/main/CONDUCT.md). By contributing to this project you agree to abide by its terms.
+Please note that this project is released with a [Code of Conduct](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/blob/main/CODE_OF_CONDUCT.md). By contributing to this project you agree to abide by its terms.
 
 ### Attribution
 
