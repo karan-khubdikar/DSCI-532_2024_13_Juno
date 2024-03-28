@@ -1,4 +1,4 @@
-# Contributing to project-name
+# Contributing to Juno
 
 ## Table of Contents
 
