@@ -1,13 +1,24 @@
 # 1. Motivation and purpose
 
-Our role: data science consultants
-Target audience: employment policy makers
+Our role: Data science consultants
+Target audience: Employment policy makers
 
 There is a lot of data on gender biases in employment and on gender bias in leadership roles. Our dashboard can be used as a tool to explore this data. 
 Since our dashboard will allow for interactivity by filtering based on year, province, industry, etc, it could allow policy makers to identify where gender biases might be most extreme/most important to address. 
 Our tool will save policy makers time by presenting the data in an easy to use and interpretable manner which will help them to make efficient use of resources. This prevents them from having to do the "groundwork" of getting data and cleaning it etc which is not how policy makers should be spending their time. Furthermore, our dashboard will summarise important information so that policymakers can easily explore both general and specific trends in gender representation interactively. 
 
 # 2. Description of the data
+
+The data is obtained from Statistics Canada. Table 33-10-0501-01 Representation of women and men on boards of directors and in officer positions, by firm attributes
+(DOI: https://doi.org/10.25318/3310050101-eng)
+
+Statistics Canada’s Representation of women and men on boards of directors and in officer positions, by firm attributes data highlight women in leadership and strategic decision-making roles and women that lead the day-to-day operations within corporations conducting business in Canada. It allows the user to compare and analyze data based on industry, size (assets), province, country of control and type of corporation. For the purpose of this project, we only wish to focus on Canadian companies (we currently have 303,000 rows of data).
+
+We will work with the following data points:
+1. Gender
+2. Size of corporation (number of employees and size of company)
+3. Type of industry
+4. Position of the employee (Director, Top officers or Other officer)
 
 # 3. Research questions
 
