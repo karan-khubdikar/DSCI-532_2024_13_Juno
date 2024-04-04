@@ -29,8 +29,10 @@ app.layout = dbc.Container([
 )
 
 def create_chart(year, industry):
-  
+
+    # Issue is with industry and year datatype - not recognised by pandas, so it returns empty df (filtered_df)
     filtered_df = df[(df["Industry"] == industry) & (df["REF_DATE"] == year)]
+
     
     chart = alt.Chart(filtered_df).mark_arc().encode(
         theta="VALUE",
