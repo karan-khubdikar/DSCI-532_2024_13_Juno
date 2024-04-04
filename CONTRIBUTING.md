@@ -68,7 +68,7 @@ We appreciate as much detail as possible so we can replicate and address the bug
 
  **Areas Needing Documentation** :
 
-* The official doeasyeda documentation.
+* The official Juno documentation.
 * Inline docstrings within the code.
 * External resources such as blog posts, tutorials, and more.
 
