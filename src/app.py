@@ -36,7 +36,7 @@ df = pd.read_csv('data/filtered/province_data.csv')
 
 
 
-# Initiatlize the app
+# Initialize the app
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
 
