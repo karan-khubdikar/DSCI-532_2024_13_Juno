@@ -8,15 +8,15 @@ Ancient Romans worshipped Juno as the queen of the gods, the female counterpart 
 
 # Motivation
 
+Despite progress in workplace diversity initiatives, gender disparity remains a pervasive issue at the highest levels of leadership, with men disproportionately represented compared to women. Our dashboard app aims to shed light on this disparity by providing visual insights into the gender composition of top-level leadership, highlighting the need for continued efforts to achieve gender equality and foster inclusive workplaces.
+
 # How to use this app
 
 We have deployed our app on Render, feel free to access it [here](https://dsci-532-2024-13-juno-aa9o.onrender.com/) and try it out for yourself! It has a simple click-based GUI, where you can explore different subsets of the data based on province, industyr, and time period. You can use this app to explore different summary statistics and graphs which highlight important insights in helping us to understand trends in the gender make-up of top positions in Canadian corporations.
 
 # Demo of the app
 
-Here, you can view a gif demonstrating how our app works:
-
-(link of the gif)
+Here, you can view a gif demonstrating how our app works: [Link to GIF](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/blob/main/img/demo.gif) 
 
 # Contribute to our repo!
 
