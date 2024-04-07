@@ -1,4 +1,9 @@
 # DSCI-532_2024_13_Juno
+Members:
+- Riya Shaju
+- Gretel Tan
+- Karan Khubdikar
+- Scout McKee
 
 # Juno
 
