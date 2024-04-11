@@ -67,17 +67,16 @@ industry = dcc.Dropdown(id='industry-filter', options=industry_columns, value='T
 app.layout = dbc.Container([
     dbc.Row(dbc.Col(title)),
     dbc.Row([
-        dbc.Col(global_widgets, md=4),
+        dbc.Col(global_widgets, md=6),
         dbc.Col(
             [
-                dbc.Row([dbc.Col(card_women), dbc.Col(card_men), dbc.Col(industry) ])
+                dbc.Card([dbc.Col(industry), dbc.Col(card_women), dbc.Col(card_men)])
 
             ],
-            md= "8"
+            sm= "6"
         ),
-    dbc.Row(dvc.Vega(id='line-chart')),
-    dbc.Row(dcc.Graph(id='bar-chart')),
-    dbc.Row(dcc.Graph(id='bar2-chart'))
+        dbc.Row(dvc.Vega(id='line-chart')),
+        dbc.Row([dbc.Col(dcc.Graph(id='bar-chart')), dbc.Col(dcc.Graph(id='bar2-chart'))])
     ]),
     html.Footer([
         html.P(''),
@@ -104,11 +103,6 @@ app.layout = dbc.Container([
     Input('year-filter', 'value'),
 )
 def calculate_proportion(province_filter, industry_filter, year_filter):
-    # There is no need to drop na for card_data because there are no NAs in this filtered dataset, but this is the code to check
-    # For this and drop NA if needed in the future
-    # print(f'Card_df shape: {card_data.shape}')
-    # print(f"NA values in card df: {card_data['VALUE'].isna().sum()}")
-    # card_data.dropna(subset=['VALUE'], inplace=True)
 
     # Implementing filtering based on widgets
     # Bug with filtering everything at once - will filter step wise until I find a solution
@@ -118,8 +112,6 @@ def calculate_proportion(province_filter, industry_filter, year_filter):
 
     women_card_df = filtered_data.query('Gender == "Women"')
     men_card_df = filtered_data.query('Gender == "Men"')
-    # print(f"NA values in women df: {women_card_df.isna()}")
-    # print(f"NA values in men df: {men_card_df.isna()}")
     total_people = filtered_data['VALUE'].sum()
     total_women = women_card_df['VALUE'].sum()
     total_men = men_card_df['VALUE'].sum()
@@ -155,37 +147,13 @@ def update_chart(year, province):
     # Create clustered bar chart with data labels
     data = []
     if 'Men' in grouped_df.columns:
-        data.append(go.Bar(x=grouped_df.index, y=grouped_df['Men'], name='Men', text=grouped_df['Men'], textposition='inside'))
+        data.append(go.Bar(x=grouped_df.index, y=grouped_df['Men'], name='Men', text=grouped_df['Men'], textposition='inside', marker=dict(color='green')))
     if 'Women' in grouped_df.columns:
-        data.append(go.Bar(x=grouped_df.index, y=grouped_df['Women'], name='Women', text=grouped_df['Women'], textposition='inside'))
+        data.append(go.Bar(x=grouped_df.index, y=grouped_df['Women'], name='Women', text=grouped_df['Women'], textposition='inside', marker=dict(color='purple')))
 
-    layout = go.Layout(barmode='group', title='Distribution by Industry and Gender', xaxis=dict(title='Industry'), yaxis=dict(title='Count'))
+    layout = go.Layout(barmode='group', title='Distribution by Industry and Gender', xaxis=dict(title='Industry'), yaxis=dict(title='Count'), width = 500)
 
     return {'data': data, 'layout': layout}
-
-
-# Server side callbacks/reactivity
-# OLD CHART WITHOUT MARKER
-# @callback(
-#     Output('line-chart', 'spec'),
-#     Input('province-filter', 'value'),
-# )
-# def create_chart(prov):
-#     filtered_df = df[(df["GEO"] == prov)]
-
-#     chart = alt.Chart(filtered_df).mark_line().encode(
-#         x = alt.X('REF_DATE:O', axis=alt.Axis(title='Year')),
-#         y = alt.Y('VALUE:Q', axis=alt.Axis(title='Number of People')),
-#         color = 'Gender:N',
-#         tooltip = ['Gender:N', 'VALUE:Q']
-#     ).properties(
-#         title='Number of Men and Women in Executive Positions in {} Over the Years'.format(prov),
-#         width=1200,
-#         height=200
-#     ).configure_axis(
-#     labelAngle=0
-#     )
-#     return chart.to_dict()
 
 @callback(
     Output('line-chart', 'spec'),
@@ -216,8 +184,8 @@ def create_chart(prov, selected_year):
         color = alt.value("#228B22")
     ).properties(
         title='Ratio of Women v/s Men in Executive Positions in {} Over the Years'.format(prov),
-        width=1200,
-        height=200
+        width=1000,
+        height=250
     )
 
     if selected_year is not None:
@@ -258,11 +226,11 @@ def update_chart(year, province):
     # Create clustered bar chart with data labels
     data = []
     if 'Men' in grouped_df.columns:
-        data.append(go.Bar(x=grouped_df.index, y=grouped_df['Men'], name='Men', text=grouped_df['Men'], textposition='inside'))
+        data.append(go.Bar(x=grouped_df.index, y=grouped_df['Men'], name='Men', text=grouped_df['Men'], textposition='inside', marker=dict(color='green')))
     if 'Women' in grouped_df.columns:
-        data.append(go.Bar(x=grouped_df.index, y=grouped_df['Women'], name='Women', text=grouped_df['Women'], textposition='inside'))
+        data.append(go.Bar(x=grouped_df.index, y=grouped_df['Women'], name='Women', text=grouped_df['Women'], textposition='inside', marker=dict(color='purple')))
 
-    layout = go.Layout(barmode='group', title='Distribution by Type of corporation and Gender', xaxis=dict(title='Type of corporation'), yaxis=dict(title='Count'))
+    layout = go.Layout(barmode='group', title='Distribution by Type of corporation and Gender', xaxis=dict(title='Type of corporation'), yaxis=dict(title='Count'), width = 500)
 
     return {'data': data, 'layout': layout}
 
