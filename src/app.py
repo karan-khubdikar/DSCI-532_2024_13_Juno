@@ -8,15 +8,6 @@ import plotly.graph_objs as go
 # Filter the data for a pie chart by province and year
 df = pd.read_csv("data/raw/filtered_canada.csv")
 
-# new_df = df[(df['Type of corporation'] == 'Total all corporations') & 
-#             (df['Industry'] == 'Total all industries') & 
-#             (df["Size of enterprise"] == "Total all sizes") &
-#             (df["Unit of measure"] == "Number") &
-#             (df["Executive"] == "All officers\xa0") &
-#             (df["GEO"] != "Canada, total") &
-#             (df["GEO"] != "Unclassified province or territory")
-# ].copy()
-
 new_df = df[(df['Type of corporation'] == 'Total all corporations') & 
             (df['Industry'] == 'Total all industries') & 
             (df["Size of enterprise"] == "Total all sizes") &
@@ -151,7 +142,7 @@ def update_chart(year, province):
     if 'Women' in grouped_df.columns:
         data.append(go.Bar(x=grouped_df.index, y=grouped_df['Women'], name='Women', text=grouped_df['Women'], textposition='inside', marker=dict(color='purple')))
 
-    layout = go.Layout(barmode='group', title='Distribution by Industry and Gender', xaxis=dict(title='Industry'), yaxis=dict(title='Count'), width = 500)
+    layout = go.Layout(barmode='group', title='Distribution by Industry and Gender', xaxis=dict(title='Industry'), yaxis=dict(title='Count'), width = 600)
 
     return {'data': data, 'layout': layout}
 
@@ -230,7 +221,7 @@ def update_chart(year, province):
     if 'Women' in grouped_df.columns:
         data.append(go.Bar(x=grouped_df.index, y=grouped_df['Women'], name='Women', text=grouped_df['Women'], textposition='inside', marker=dict(color='purple')))
 
-    layout = go.Layout(barmode='group', title='Distribution by Type of corporation and Gender', xaxis=dict(title='Type of corporation'), yaxis=dict(title='Count'), width = 500)
+    layout = go.Layout(barmode='group', title='Distribution by Type of corporation and Gender', xaxis=dict(title='Type of corporation'), yaxis=dict(title='Count'), width = 400)
 
     return {'data': data, 'layout': layout}
 
