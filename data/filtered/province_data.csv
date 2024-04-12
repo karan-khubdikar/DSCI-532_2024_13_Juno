@@ -1,141 +1,1401 @@
 REF_DATE,Gender,GEO,VALUE
 2016,Women,"Canada, total",4277.0
+2016,Women,"Canada, total",1553.0
+2016,Women,"Canada, total",134.0
+2016,Women,"Canada, total",661.0
+2016,Women,"Canada, total",198.0
+2016,Women,"Canada, total",113.0
+2016,Women,"Canada, total",172.0
+2016,Women,"Canada, total",163.0
+2016,Women,"Canada, total",1071.0
+2016,Women,"Canada, total",212.0
 2016,Men,"Canada, total",10114.0
+2016,Men,"Canada, total",3069.0
+2016,Men,"Canada, total",301.0
+2016,Men,"Canada, total",1564.0
+2016,Men,"Canada, total",514.0
+2016,Men,"Canada, total",480.0
+2016,Men,"Canada, total",688.0
+2016,Men,"Canada, total",695.0
+2016,Men,"Canada, total",2437.0
+2016,Men,"Canada, total",366.0
 2016,Women,Newfoundland and Labrador,12.0
+2016,Women,Newfoundland and Labrador,0.0
+2016,Women,Newfoundland and Labrador,2.0
+2016,Women,Newfoundland and Labrador,2.0
+2016,Women,Newfoundland and Labrador,0.0
+2016,Women,Newfoundland and Labrador,0.0
+2016,Women,Newfoundland and Labrador,3.0
+2016,Women,Newfoundland and Labrador,2.0
+2016,Women,Newfoundland and Labrador,3.0
+2016,Women,Newfoundland and Labrador,0.0
 2016,Men,Newfoundland and Labrador,46.0
+2016,Men,Newfoundland and Labrador,3.0
+2016,Men,Newfoundland and Labrador,3.0
+2016,Men,Newfoundland and Labrador,13.0
+2016,Men,Newfoundland and Labrador,0.0
+2016,Men,Newfoundland and Labrador,0.0
+2016,Men,Newfoundland and Labrador,10.0
+2016,Men,Newfoundland and Labrador,10.0
+2016,Men,Newfoundland and Labrador,7.0
+2016,Men,Newfoundland and Labrador,0.0
 2016,Women,Prince Edward Island,3.0
+2016,Women,Prince Edward Island,0.0
+2016,Women,Prince Edward Island,0.0
+2016,Women,Prince Edward Island,0.0
+2016,Women,Prince Edward Island,0.0
+2016,Women,Prince Edward Island,0.0
+2016,Women,Prince Edward Island,0.0
+2016,Women,Prince Edward Island,0.0
+2016,Women,Prince Edward Island,3.0
+2016,Women,Prince Edward Island,0.0
 2016,Men,Prince Edward Island,12.0
+2016,Men,Prince Edward Island,0.0
+2016,Men,Prince Edward Island,3.0
+2016,Men,Prince Edward Island,0.0
+2016,Men,Prince Edward Island,0.0
+2016,Men,Prince Edward Island,0.0
+2016,Men,Prince Edward Island,5.0
+2016,Men,Prince Edward Island,0.0
+2016,Men,Prince Edward Island,4.0
+2016,Men,Prince Edward Island,0.0
 2016,Women,Nova Scotia,122.0
+2016,Women,Nova Scotia,33.0
+2016,Women,Nova Scotia,3.0
+2016,Women,Nova Scotia,29.0
+2016,Women,Nova Scotia,17.0
+2016,Women,Nova Scotia,4.0
+2016,Women,Nova Scotia,10.0
+2016,Women,Nova Scotia,1.0
+2016,Women,Nova Scotia,19.0
+2016,Women,Nova Scotia,6.0
 2016,Men,Nova Scotia,204.0
+2016,Men,Nova Scotia,33.0
+2016,Men,Nova Scotia,16.0
+2016,Men,Nova Scotia,46.0
+2016,Men,Nova Scotia,17.0
+2016,Men,Nova Scotia,2.0
+2016,Men,Nova Scotia,51.0
+2016,Men,Nova Scotia,2.0
+2016,Men,Nova Scotia,29.0
+2016,Men,Nova Scotia,8.0
 2016,Women,New Brunswick,26.0
+2016,Women,New Brunswick,2.0
+2016,Women,New Brunswick,0.0
+2016,Women,New Brunswick,2.0
+2016,Women,New Brunswick,0.0
+2016,Women,New Brunswick,0.0
+2016,Women,New Brunswick,7.0
+2016,Women,New Brunswick,5.0
+2016,Women,New Brunswick,10.0
+2016,Women,New Brunswick,0.0
 2016,Men,New Brunswick,149.0
+2016,Men,New Brunswick,2.0
+2016,Men,New Brunswick,0.0
+2016,Men,New Brunswick,30.0
+2016,Men,New Brunswick,9.0
+2016,Men,New Brunswick,0.0
+2016,Men,New Brunswick,30.0
+2016,Men,New Brunswick,11.0
+2016,Men,New Brunswick,53.0
+2016,Men,New Brunswick,14.0
 2016,Women,Quebec,964.0
+2016,Women,Quebec,299.0
+2016,Women,Quebec,12.0
+2016,Women,Quebec,166.0
+2016,Women,Quebec,34.0
+2016,Women,Quebec,17.0
+2016,Women,Quebec,50.0
+2016,Women,Quebec,2.0
+2016,Women,Quebec,348.0
+2016,Women,Quebec,36.0
 2016,Men,Quebec,1774.0
+2016,Men,Quebec,571.0
+2016,Men,Quebec,31.0
+2016,Men,Quebec,294.0
+2016,Men,Quebec,105.0
+2016,Men,Quebec,36.0
+2016,Men,Quebec,175.0
+2016,Men,Quebec,13.0
+2016,Men,Quebec,517.0
+2016,Men,Quebec,32.0
 2016,Women,Ontario,2021.0
+2016,Women,Ontario,1015.0
+2016,Women,Ontario,19.0
+2016,Women,Ontario,271.0
+2016,Women,Ontario,71.0
+2016,Women,Ontario,19.0
+2016,Women,Ontario,50.0
+2016,Women,Ontario,80.0
+2016,Women,Ontario,363.0
+2016,Women,Ontario,133.0
 2016,Men,Ontario,4767.0
+2016,Men,Ontario,1914.0
+2016,Men,Ontario,76.0
+2016,Men,Ontario,598.0
+2016,Men,Ontario,164.0
+2016,Men,Ontario,83.0
+2016,Men,Ontario,219.0
+2016,Men,Ontario,362.0
+2016,Men,Ontario,1103.0
+2016,Men,Ontario,248.0
 2016,Women,Manitoba,114.0
+2016,Women,Manitoba,35.0
+2016,Women,Manitoba,0.0
+2016,Women,Manitoba,16.0
+2016,Women,Manitoba,17.0
+2016,Women,Manitoba,1.0
+2016,Women,Manitoba,7.0
+2016,Women,Manitoba,5.0
+2016,Women,Manitoba,30.0
+2016,Women,Manitoba,3.0
 2016,Men,Manitoba,353.0
+2016,Men,Manitoba,98.0
+2016,Men,Manitoba,0.0
+2016,Men,Manitoba,64.0
+2016,Men,Manitoba,48.0
+2016,Men,Manitoba,6.0
+2016,Men,Manitoba,28.0
+2016,Men,Manitoba,42.0
+2016,Men,Manitoba,66.0
+2016,Men,Manitoba,1.0
 2016,Women,Saskatchewan,47.0
+2016,Women,Saskatchewan,10.0
+2016,Women,Saskatchewan,4.0
+2016,Women,Saskatchewan,4.0
+2016,Women,Saskatchewan,9.0
+2016,Women,Saskatchewan,2.0
+2016,Women,Saskatchewan,2.0
+2016,Women,Saskatchewan,0.0
+2016,Women,Saskatchewan,16.0
+2016,Women,Saskatchewan,0.0
 2016,Men,Saskatchewan,153.0
+2016,Men,Saskatchewan,28.0
+2016,Men,Saskatchewan,3.0
+2016,Men,Saskatchewan,5.0
+2016,Men,Saskatchewan,30.0
+2016,Men,Saskatchewan,19.0
+2016,Men,Saskatchewan,12.0
+2016,Men,Saskatchewan,5.0
+2016,Men,Saskatchewan,51.0
+2016,Men,Saskatchewan,0.0
 2016,Women,Alberta,640.0
+2016,Women,Alberta,92.0
+2016,Women,Alberta,71.0
+2016,Women,Alberta,113.0
+2016,Women,Alberta,35.0
+2016,Women,Alberta,47.0
+2016,Women,Alberta,23.0
+2016,Women,Alberta,49.0
+2016,Women,Alberta,192.0
+2016,Women,Alberta,18.0
 2016,Men,Alberta,1650.0
+2016,Men,Alberta,205.0
+2016,Men,Alberta,142.0
+2016,Men,Alberta,313.0
+2016,Men,Alberta,87.0
+2016,Men,Alberta,250.0
+2016,Men,Alberta,76.0
+2016,Men,Alberta,149.0
+2016,Men,Alberta,408.0
+2016,Men,Alberta,20.0
 2016,Women,British Columbia,312.0
+2016,Women,British Columbia,65.0
+2016,Women,British Columbia,23.0
+2016,Women,British Columbia,58.0
+2016,Women,British Columbia,15.0
+2016,Women,British Columbia,23.0
+2016,Women,British Columbia,20.0
+2016,Women,British Columbia,19.0
+2016,Women,British Columbia,76.0
+2016,Women,British Columbia,13.0
 2016,Men,British Columbia,972.0
+2016,Men,British Columbia,208.0
+2016,Men,British Columbia,27.0
+2016,Men,British Columbia,199.0
+2016,Men,British Columbia,54.0
+2016,Men,British Columbia,81.0
+2016,Men,British Columbia,82.0
+2016,Men,British Columbia,101.0
+2016,Men,British Columbia,181.0
+2016,Men,British Columbia,39.0
+2016,Women,Yukon,0.0
+2016,Women,Yukon,0.0
+2016,Women,Yukon,0.0
+2016,Women,Yukon,0.0
+2016,Women,Yukon,0.0
+2016,Women,Yukon,0.0
+2016,Women,Yukon,0.0
+2016,Women,Yukon,0.0
+2016,Women,Yukon,0.0
 2016,Women,Yukon,0.0
 2016,Men,Yukon,1.0
+2016,Men,Yukon,0.0
+2016,Men,Yukon,0.0
+2016,Men,Yukon,0.0
+2016,Men,Yukon,0.0
+2016,Men,Yukon,0.0
+2016,Men,Yukon,0.0
+2016,Men,Yukon,0.0
+2016,Men,Yukon,0.0
+2016,Men,Yukon,1.0
 2016,Women,Northwest Territories,11.0
+2016,Women,Northwest Territories,0.0
+2016,Women,Northwest Territories,0.0
+2016,Women,Northwest Territories,0.0
+2016,Women,Northwest Territories,0.0
+2016,Women,Northwest Territories,0.0
+2016,Women,Northwest Territories,0.0
+2016,Women,Northwest Territories,0.0
+2016,Women,Northwest Territories,11.0
+2016,Women,Northwest Territories,0.0
 2016,Men,Northwest Territories,23.0
+2016,Men,Northwest Territories,3.0
+2016,Men,Northwest Territories,0.0
+2016,Men,Northwest Territories,0.0
+2016,Men,Northwest Territories,0.0
+2016,Men,Northwest Territories,3.0
+2016,Men,Northwest Territories,0.0
+2016,Men,Northwest Territories,0.0
+2016,Men,Northwest Territories,17.0
+2016,Men,Northwest Territories,0.0
+2016,Women,Nunavut,0.0
+2016,Women,Nunavut,0.0
+2016,Women,Nunavut,0.0
+2016,Women,Nunavut,0.0
+2016,Women,Nunavut,0.0
+2016,Women,Nunavut,0.0
+2016,Women,Nunavut,0.0
+2016,Women,Nunavut,0.0
+2016,Women,Nunavut,0.0
 2016,Women,Nunavut,0.0
 2016,Men,Nunavut,0.0
+2016,Men,Nunavut,0.0
+2016,Men,Nunavut,0.0
+2016,Men,Nunavut,0.0
+2016,Men,Nunavut,0.0
+2016,Men,Nunavut,0.0
+2016,Men,Nunavut,0.0
+2016,Men,Nunavut,0.0
+2016,Men,Nunavut,0.0
+2016,Men,Nunavut,0.0
 2017,Women,"Canada, total",4137.0
+2017,Women,"Canada, total",1630.0
+2017,Women,"Canada, total",111.0
+2017,Women,"Canada, total",696.0
+2017,Women,"Canada, total",171.0
+2017,Women,"Canada, total",100.0
+2017,Women,"Canada, total",136.0
+2017,Women,"Canada, total",159.0
+2017,Women,"Canada, total",1077.0
+2017,Women,"Canada, total",57.0
 2017,Men,"Canada, total",9754.0
+2017,Men,"Canada, total",3168.0
+2017,Men,"Canada, total",278.0
+2017,Men,"Canada, total",1659.0
+2017,Men,"Canada, total",498.0
+2017,Men,"Canada, total",414.0
+2017,Men,"Canada, total",564.0
+2017,Men,"Canada, total",588.0
+2017,Men,"Canada, total",2475.0
+2017,Men,"Canada, total",110.0
 2017,Women,Newfoundland and Labrador,20.0
+2017,Women,Newfoundland and Labrador,1.0
+2017,Women,Newfoundland and Labrador,4.0
+2017,Women,Newfoundland and Labrador,4.0
+2017,Women,Newfoundland and Labrador,2.0
+2017,Women,Newfoundland and Labrador,0.0
+2017,Women,Newfoundland and Labrador,2.0
+2017,Women,Newfoundland and Labrador,2.0
+2017,Women,Newfoundland and Labrador,5.0
+2017,Women,Newfoundland and Labrador,0.0
 2017,Men,Newfoundland and Labrador,50.0
+2017,Men,Newfoundland and Labrador,2.0
+2017,Men,Newfoundland and Labrador,3.0
+2017,Men,Newfoundland and Labrador,16.0
+2017,Men,Newfoundland and Labrador,3.0
+2017,Men,Newfoundland and Labrador,0.0
+2017,Men,Newfoundland and Labrador,8.0
+2017,Men,Newfoundland and Labrador,10.0
+2017,Men,Newfoundland and Labrador,8.0
+2017,Men,Newfoundland and Labrador,0.0
 2017,Women,Prince Edward Island,3.0
+2017,Women,Prince Edward Island,0.0
+2017,Women,Prince Edward Island,0.0
+2017,Women,Prince Edward Island,0.0
+2017,Women,Prince Edward Island,0.0
+2017,Women,Prince Edward Island,0.0
+2017,Women,Prince Edward Island,0.0
+2017,Women,Prince Edward Island,0.0
+2017,Women,Prince Edward Island,3.0
+2017,Women,Prince Edward Island,0.0
 2017,Men,Prince Edward Island,13.0
+2017,Men,Prince Edward Island,0.0
+2017,Men,Prince Edward Island,3.0
+2017,Men,Prince Edward Island,0.0
+2017,Men,Prince Edward Island,0.0
+2017,Men,Prince Edward Island,0.0
+2017,Men,Prince Edward Island,5.0
+2017,Men,Prince Edward Island,0.0
+2017,Men,Prince Edward Island,5.0
+2017,Men,Prince Edward Island,0.0
 2017,Women,Nova Scotia,105.0
+2017,Women,Nova Scotia,18.0
+2017,Women,Nova Scotia,0.0
+2017,Women,Nova Scotia,31.0
+2017,Women,Nova Scotia,13.0
+2017,Women,Nova Scotia,0.0
+2017,Women,Nova Scotia,9.0
+2017,Women,Nova Scotia,1.0
+2017,Women,Nova Scotia,33.0
+2017,Women,Nova Scotia,0.0
 2017,Men,Nova Scotia,173.0
+2017,Men,Nova Scotia,17.0
+2017,Men,Nova Scotia,0.0
+2017,Men,Nova Scotia,56.0
+2017,Men,Nova Scotia,21.0
+2017,Men,Nova Scotia,0.0
+2017,Men,Nova Scotia,21.0
+2017,Men,Nova Scotia,1.0
+2017,Men,Nova Scotia,53.0
+2017,Men,Nova Scotia,4.0
 2017,Women,New Brunswick,32.0
+2017,Women,New Brunswick,4.0
+2017,Women,New Brunswick,0.0
+2017,Women,New Brunswick,2.0
+2017,Women,New Brunswick,0.0
+2017,Women,New Brunswick,0.0
+2017,Women,New Brunswick,5.0
+2017,Women,New Brunswick,6.0
+2017,Women,New Brunswick,14.0
+2017,Women,New Brunswick,1.0
 2017,Men,New Brunswick,169.0
+2017,Men,New Brunswick,6.0
+2017,Men,New Brunswick,5.0
+2017,Men,New Brunswick,26.0
+2017,Men,New Brunswick,10.0
+2017,Men,New Brunswick,0.0
+2017,Men,New Brunswick,32.0
+2017,Men,New Brunswick,10.0
+2017,Men,New Brunswick,74.0
+2017,Men,New Brunswick,6.0
 2017,Women,Quebec,993.0
+2017,Women,Quebec,358.0
+2017,Women,Quebec,7.0
+2017,Women,Quebec,175.0
+2017,Women,Quebec,33.0
+2017,Women,Quebec,8.0
+2017,Women,Quebec,37.0
+2017,Women,Quebec,15.0
+2017,Women,Quebec,345.0
+2017,Women,Quebec,15.0
 2017,Men,Quebec,1861.0
+2017,Men,Quebec,579.0
+2017,Men,Quebec,32.0
+2017,Men,Quebec,326.0
+2017,Men,Quebec,102.0
+2017,Men,Quebec,36.0
+2017,Men,Quebec,149.0
+2017,Men,Quebec,27.0
+2017,Men,Quebec,588.0
+2017,Men,Quebec,22.0
 2017,Women,Ontario,1897.0
+2017,Women,Ontario,1022.0
+2017,Women,Ontario,23.0
+2017,Women,Ontario,279.0
+2017,Women,Ontario,49.0
+2017,Women,Ontario,11.0
+2017,Women,Ontario,46.0
+2017,Women,Ontario,56.0
+2017,Women,Ontario,379.0
+2017,Women,Ontario,32.0
 2017,Men,Ontario,4326.0
+2017,Men,Ontario,1928.0
+2017,Men,Ontario,72.0
+2017,Men,Ontario,617.0
+2017,Men,Ontario,144.0
+2017,Men,Ontario,51.0
+2017,Men,Ontario,178.0
+2017,Men,Ontario,242.0
+2017,Men,Ontario,1032.0
+2017,Men,Ontario,62.0
 2017,Women,Manitoba,109.0
+2017,Women,Manitoba,36.0
+2017,Women,Manitoba,0.0
+2017,Women,Manitoba,17.0
+2017,Women,Manitoba,16.0
+2017,Women,Manitoba,1.0
+2017,Women,Manitoba,3.0
+2017,Women,Manitoba,9.0
+2017,Women,Manitoba,27.0
+2017,Women,Manitoba,0.0
 2017,Men,Manitoba,359.0
+2017,Men,Manitoba,100.0
+2017,Men,Manitoba,0.0
+2017,Men,Manitoba,58.0
+2017,Men,Manitoba,46.0
+2017,Men,Manitoba,6.0
+2017,Men,Manitoba,16.0
+2017,Men,Manitoba,62.0
+2017,Men,Manitoba,71.0
+2017,Men,Manitoba,0.0
 2017,Women,Saskatchewan,33.0
+2017,Women,Saskatchewan,9.0
+2017,Women,Saskatchewan,2.0
+2017,Women,Saskatchewan,3.0
+2017,Women,Saskatchewan,6.0
+2017,Women,Saskatchewan,2.0
+2017,Women,Saskatchewan,2.0
+2017,Women,Saskatchewan,0.0
+2017,Women,Saskatchewan,9.0
+2017,Women,Saskatchewan,0.0
 2017,Men,Saskatchewan,158.0
+2017,Men,Saskatchewan,27.0
+2017,Men,Saskatchewan,1.0
+2017,Men,Saskatchewan,9.0
+2017,Men,Saskatchewan,27.0
+2017,Men,Saskatchewan,20.0
+2017,Men,Saskatchewan,12.0
+2017,Men,Saskatchewan,7.0
+2017,Men,Saskatchewan,55.0
+2017,Men,Saskatchewan,0.0
 2017,Women,Alberta,608.0
+2017,Women,Alberta,93.0
+2017,Women,Alberta,57.0
+2017,Women,Alberta,117.0
+2017,Women,Alberta,40.0
+2017,Women,Alberta,65.0
+2017,Women,Alberta,19.0
+2017,Women,Alberta,44.0
+2017,Women,Alberta,169.0
+2017,Women,Alberta,4.0
 2017,Men,Alberta,1650.0
+2017,Men,Alberta,220.0
+2017,Men,Alberta,134.0
+2017,Men,Alberta,321.0
+2017,Men,Alberta,98.0
+2017,Men,Alberta,254.0
+2017,Men,Alberta,75.0
+2017,Men,Alberta,139.0
+2017,Men,Alberta,405.0
+2017,Men,Alberta,4.0
 2017,Women,British Columbia,329.0
+2017,Women,British Columbia,86.0
+2017,Women,British Columbia,18.0
+2017,Women,British Columbia,68.0
+2017,Women,British Columbia,12.0
+2017,Women,British Columbia,13.0
+2017,Women,British Columbia,13.0
+2017,Women,British Columbia,26.0
+2017,Women,British Columbia,88.0
+2017,Women,British Columbia,5.0
 2017,Men,British Columbia,987.0
+2017,Men,British Columbia,286.0
+2017,Men,British Columbia,28.0
+2017,Men,British Columbia,230.0
+2017,Men,British Columbia,47.0
+2017,Men,British Columbia,47.0
+2017,Men,British Columbia,68.0
+2017,Men,British Columbia,90.0
+2017,Men,British Columbia,179.0
+2017,Men,British Columbia,12.0
+2017,Women,Yukon,0.0
+2017,Women,Yukon,0.0
+2017,Women,Yukon,0.0
+2017,Women,Yukon,0.0
+2017,Women,Yukon,0.0
+2017,Women,Yukon,0.0
+2017,Women,Yukon,0.0
+2017,Women,Yukon,0.0
+2017,Women,Yukon,0.0
 2017,Women,Yukon,0.0
 2017,Men,Yukon,0.0
+2017,Men,Yukon,0.0
+2017,Men,Yukon,0.0
+2017,Men,Yukon,0.0
+2017,Men,Yukon,0.0
+2017,Men,Yukon,0.0
+2017,Men,Yukon,0.0
+2017,Men,Yukon,0.0
+2017,Men,Yukon,0.0
+2017,Men,Yukon,0.0
 2017,Women,Northwest Territories,5.0
+2017,Women,Northwest Territories,0.0
+2017,Women,Northwest Territories,0.0
+2017,Women,Northwest Territories,0.0
+2017,Women,Northwest Territories,0.0
+2017,Women,Northwest Territories,0.0
+2017,Women,Northwest Territories,0.0
+2017,Women,Northwest Territories,0.0
+2017,Women,Northwest Territories,5.0
+2017,Women,Northwest Territories,0.0
 2017,Men,Northwest Territories,5.0
+2017,Men,Northwest Territories,0.0
+2017,Men,Northwest Territories,0.0
+2017,Men,Northwest Territories,0.0
+2017,Men,Northwest Territories,0.0
+2017,Men,Northwest Territories,0.0
+2017,Men,Northwest Territories,0.0
+2017,Men,Northwest Territories,0.0
+2017,Men,Northwest Territories,5.0
+2017,Men,Northwest Territories,0.0
+2017,Women,Nunavut,0.0
+2017,Women,Nunavut,0.0
+2017,Women,Nunavut,0.0
+2017,Women,Nunavut,0.0
+2017,Women,Nunavut,0.0
+2017,Women,Nunavut,0.0
+2017,Women,Nunavut,0.0
+2017,Women,Nunavut,0.0
+2017,Women,Nunavut,0.0
 2017,Women,Nunavut,0.0
 2017,Men,Nunavut,0.0
+2017,Men,Nunavut,0.0
+2017,Men,Nunavut,0.0
+2017,Men,Nunavut,0.0
+2017,Men,Nunavut,0.0
+2017,Men,Nunavut,0.0
+2017,Men,Nunavut,0.0
+2017,Men,Nunavut,0.0
+2017,Men,Nunavut,0.0
+2017,Men,Nunavut,0.0
 2018,Women,"Canada, total",3786.0
+2018,Women,"Canada, total",1584.0
+2018,Women,"Canada, total",93.0
+2018,Women,"Canada, total",559.0
+2018,Women,"Canada, total",182.0
+2018,Women,"Canada, total",89.0
+2018,Women,"Canada, total",142.0
+2018,Women,"Canada, total",109.0
+2018,Women,"Canada, total",955.0
+2018,Women,"Canada, total",73.0
 2018,Men,"Canada, total",8747.0
+2018,Men,"Canada, total",2915.0
+2018,Men,"Canada, total",244.0
+2018,Men,"Canada, total",1395.0
+2018,Men,"Canada, total",474.0
+2018,Men,"Canada, total",293.0
+2018,Men,"Canada, total",499.0
+2018,Men,"Canada, total",529.0
+2018,Men,"Canada, total",2257.0
+2018,Men,"Canada, total",141.0
 2018,Women,Newfoundland and Labrador,18.0
+2018,Women,Newfoundland and Labrador,2.0
+2018,Women,Newfoundland and Labrador,3.0
+2018,Women,Newfoundland and Labrador,7.0
+2018,Women,Newfoundland and Labrador,0.0
+2018,Women,Newfoundland and Labrador,0.0
+2018,Women,Newfoundland and Labrador,2.0
+2018,Women,Newfoundland and Labrador,2.0
+2018,Women,Newfoundland and Labrador,2.0
+2018,Women,Newfoundland and Labrador,0.0
 2018,Men,Newfoundland and Labrador,46.0
+2018,Men,Newfoundland and Labrador,3.0
+2018,Men,Newfoundland and Labrador,6.0
+2018,Men,Newfoundland and Labrador,14.0
+2018,Men,Newfoundland and Labrador,0.0
+2018,Men,Newfoundland and Labrador,0.0
+2018,Men,Newfoundland and Labrador,9.0
+2018,Men,Newfoundland and Labrador,9.0
+2018,Men,Newfoundland and Labrador,5.0
+2018,Men,Newfoundland and Labrador,0.0
 2018,Women,Prince Edward Island,5.0
+2018,Women,Prince Edward Island,0.0
+2018,Women,Prince Edward Island,0.0
+2018,Women,Prince Edward Island,0.0
+2018,Women,Prince Edward Island,2.0
+2018,Women,Prince Edward Island,0.0
+2018,Women,Prince Edward Island,1.0
+2018,Women,Prince Edward Island,0.0
+2018,Women,Prince Edward Island,2.0
+2018,Women,Prince Edward Island,0.0
 2018,Men,Prince Edward Island,17.0
+2018,Men,Prince Edward Island,0.0
+2018,Men,Prince Edward Island,4.0
+2018,Men,Prince Edward Island,0.0
+2018,Men,Prince Edward Island,3.0
+2018,Men,Prince Edward Island,0.0
+2018,Men,Prince Edward Island,4.0
+2018,Men,Prince Edward Island,0.0
+2018,Men,Prince Edward Island,6.0
+2018,Men,Prince Edward Island,0.0
 2018,Women,Nova Scotia,59.0
+2018,Women,Nova Scotia,8.0
+2018,Women,Nova Scotia,0.0
+2018,Women,Nova Scotia,18.0
+2018,Women,Nova Scotia,8.0
+2018,Women,Nova Scotia,0.0
+2018,Women,Nova Scotia,4.0
+2018,Women,Nova Scotia,1.0
+2018,Women,Nova Scotia,20.0
+2018,Women,Nova Scotia,0.0
 2018,Men,Nova Scotia,132.0
+2018,Men,Nova Scotia,12.0
+2018,Men,Nova Scotia,10.0
+2018,Men,Nova Scotia,41.0
+2018,Men,Nova Scotia,16.0
+2018,Men,Nova Scotia,0.0
+2018,Men,Nova Scotia,12.0
+2018,Men,Nova Scotia,1.0
+2018,Men,Nova Scotia,40.0
+2018,Men,Nova Scotia,0.0
 2018,Women,New Brunswick,43.0
+2018,Women,New Brunswick,0.0
+2018,Women,New Brunswick,0.0
+2018,Women,New Brunswick,8.0
+2018,Women,New Brunswick,3.0
+2018,Women,New Brunswick,0.0
+2018,Women,New Brunswick,6.0
+2018,Women,New Brunswick,3.0
+2018,Women,New Brunswick,21.0
+2018,Women,New Brunswick,2.0
 2018,Men,New Brunswick,170.0
+2018,Men,New Brunswick,2.0
+2018,Men,New Brunswick,5.0
+2018,Men,New Brunswick,31.0
+2018,Men,New Brunswick,11.0
+2018,Men,New Brunswick,0.0
+2018,Men,New Brunswick,34.0
+2018,Men,New Brunswick,13.0
+2018,Men,New Brunswick,68.0
+2018,Men,New Brunswick,6.0
 2018,Women,Quebec,893.0
+2018,Women,Quebec,326.0
+2018,Women,Quebec,7.0
+2018,Women,Quebec,139.0
+2018,Women,Quebec,38.0
+2018,Women,Quebec,16.0
+2018,Women,Quebec,31.0
+2018,Women,Quebec,4.0
+2018,Women,Quebec,320.0
+2018,Women,Quebec,12.0
 2018,Men,Quebec,1534.0
+2018,Men,Quebec,463.0
+2018,Men,Quebec,35.0
+2018,Men,Quebec,228.0
+2018,Men,Quebec,91.0
+2018,Men,Quebec,22.0
+2018,Men,Quebec,128.0
+2018,Men,Quebec,16.0
+2018,Men,Quebec,531.0
+2018,Men,Quebec,20.0
 2018,Women,Ontario,1794.0
+2018,Women,Ontario,1024.0
+2018,Women,Ontario,23.0
+2018,Women,Ontario,231.0
+2018,Women,Ontario,47.0
+2018,Women,Ontario,7.0
+2018,Women,Ontario,39.0
+2018,Women,Ontario,47.0
+2018,Women,Ontario,321.0
+2018,Women,Ontario,55.0
 2018,Men,Ontario,3855.0
+2018,Men,Ontario,1757.0
+2018,Men,Ontario,67.0
+2018,Men,Ontario,554.0
+2018,Men,Ontario,130.0
+2018,Men,Ontario,30.0
+2018,Men,Ontario,142.0
+2018,Men,Ontario,194.0
+2018,Men,Ontario,872.0
+2018,Men,Ontario,109.0
 2018,Women,Manitoba,102.0
+2018,Women,Manitoba,40.0
+2018,Women,Manitoba,1.0
+2018,Women,Manitoba,12.0
+2018,Women,Manitoba,17.0
+2018,Women,Manitoba,0.0
+2018,Women,Manitoba,3.0
+2018,Women,Manitoba,6.0
+2018,Women,Manitoba,23.0
+2018,Women,Manitoba,0.0
 2018,Men,Manitoba,369.0
+2018,Men,Manitoba,102.0
+2018,Men,Manitoba,3.0
+2018,Men,Manitoba,56.0
+2018,Men,Manitoba,62.0
+2018,Men,Manitoba,0.0
+2018,Men,Manitoba,20.0
+2018,Men,Manitoba,49.0
+2018,Men,Manitoba,77.0
+2018,Men,Manitoba,0.0
 2018,Women,Saskatchewan,40.0
+2018,Women,Saskatchewan,13.0
+2018,Women,Saskatchewan,2.0
+2018,Women,Saskatchewan,6.0
+2018,Women,Saskatchewan,8.0
+2018,Women,Saskatchewan,1.0
+2018,Women,Saskatchewan,3.0
+2018,Women,Saskatchewan,0.0
+2018,Women,Saskatchewan,7.0
+2018,Women,Saskatchewan,0.0
 2018,Men,Saskatchewan,167.0
+2018,Men,Saskatchewan,29.0
+2018,Men,Saskatchewan,2.0
+2018,Men,Saskatchewan,18.0
+2018,Men,Saskatchewan,32.0
+2018,Men,Saskatchewan,13.0
+2018,Men,Saskatchewan,16.0
+2018,Men,Saskatchewan,7.0
+2018,Men,Saskatchewan,50.0
+2018,Men,Saskatchewan,0.0
 2018,Women,Alberta,536.0
+2018,Women,Alberta,79.0
+2018,Women,Alberta,50.0
+2018,Women,Alberta,84.0
+2018,Women,Alberta,51.0
+2018,Women,Alberta,49.0
+2018,Women,Alberta,28.0
+2018,Women,Alberta,31.0
+2018,Women,Alberta,164.0
+2018,Women,Alberta,0.0
 2018,Men,Alberta,1572.0
+2018,Men,Alberta,261.0
+2018,Men,Alberta,91.0
+2018,Men,Alberta,263.0
+2018,Men,Alberta,101.0
+2018,Men,Alberta,198.0
+2018,Men,Alberta,70.0
+2018,Men,Alberta,142.0
+2018,Men,Alberta,442.0
+2018,Men,Alberta,4.0
 2018,Women,British Columbia,295.0
+2018,Women,British Columbia,92.0
+2018,Women,British Columbia,6.0
+2018,Women,British Columbia,54.0
+2018,Women,British Columbia,8.0
+2018,Women,British Columbia,16.0
+2018,Women,British Columbia,25.0
+2018,Women,British Columbia,15.0
+2018,Women,British Columbia,75.0
+2018,Women,British Columbia,4.0
 2018,Men,British Columbia,876.0
+2018,Men,British Columbia,286.0
+2018,Men,British Columbia,18.0
+2018,Men,British Columbia,185.0
+2018,Men,British Columbia,28.0
+2018,Men,British Columbia,30.0
+2018,Men,British Columbia,64.0
+2018,Men,British Columbia,98.0
+2018,Men,British Columbia,165.0
+2018,Men,British Columbia,2.0
+2018,Women,Yukon,0.0
+2018,Women,Yukon,0.0
+2018,Women,Yukon,0.0
+2018,Women,Yukon,0.0
+2018,Women,Yukon,0.0
+2018,Women,Yukon,0.0
+2018,Women,Yukon,0.0
+2018,Women,Yukon,0.0
+2018,Women,Yukon,0.0
 2018,Women,Yukon,0.0
 2018,Men,Yukon,0.0
+2018,Men,Yukon,0.0
+2018,Men,Yukon,0.0
+2018,Men,Yukon,0.0
+2018,Men,Yukon,0.0
+2018,Men,Yukon,0.0
+2018,Men,Yukon,0.0
+2018,Men,Yukon,0.0
+2018,Men,Yukon,0.0
+2018,Men,Yukon,0.0
 2018,Women,Northwest Territories,1.0
+2018,Women,Northwest Territories,0.0
+2018,Women,Northwest Territories,1.0
+2018,Women,Northwest Territories,0.0
+2018,Women,Northwest Territories,0.0
+2018,Women,Northwest Territories,0.0
+2018,Women,Northwest Territories,0.0
+2018,Women,Northwest Territories,0.0
+2018,Women,Northwest Territories,0.0
+2018,Women,Northwest Territories,0.0
 2018,Men,Northwest Territories,4.0
+2018,Men,Northwest Territories,0.0
+2018,Men,Northwest Territories,3.0
+2018,Men,Northwest Territories,0.0
+2018,Men,Northwest Territories,0.0
+2018,Men,Northwest Territories,0.0
+2018,Men,Northwest Territories,0.0
+2018,Men,Northwest Territories,0.0
+2018,Men,Northwest Territories,1.0
+2018,Men,Northwest Territories,0.0
+2018,Women,Nunavut,0.0
+2018,Women,Nunavut,0.0
+2018,Women,Nunavut,0.0
+2018,Women,Nunavut,0.0
+2018,Women,Nunavut,0.0
+2018,Women,Nunavut,0.0
+2018,Women,Nunavut,0.0
+2018,Women,Nunavut,0.0
+2018,Women,Nunavut,0.0
 2018,Women,Nunavut,0.0
 2018,Men,Nunavut,0.0
+2018,Men,Nunavut,0.0
+2018,Men,Nunavut,0.0
+2018,Men,Nunavut,0.0
+2018,Men,Nunavut,0.0
+2018,Men,Nunavut,0.0
+2018,Men,Nunavut,0.0
+2018,Men,Nunavut,0.0
+2018,Men,Nunavut,0.0
+2018,Men,Nunavut,0.0
 2019,Women,"Canada, total",2688.0
+2019,Women,"Canada, total",1085.0
+2019,Women,"Canada, total",89.0
+2019,Women,"Canada, total",526.0
+2019,Women,"Canada, total",97.0
+2019,Women,"Canada, total",52.0
+2019,Women,"Canada, total",88.0
+2019,Women,"Canada, total",90.0
+2019,Women,"Canada, total",615.0
+2019,Women,"Canada, total",46.0
 2019,Men,"Canada, total",6204.0
+2019,Men,"Canada, total",2095.0
+2019,Men,"Canada, total",197.0
+2019,Men,"Canada, total",1169.0
+2019,Men,"Canada, total",252.0
+2019,Men,"Canada, total",245.0
+2019,Men,"Canada, total",311.0
+2019,Men,"Canada, total",358.0
+2019,Men,"Canada, total",1468.0
+2019,Men,"Canada, total",109.0
 2019,Women,Newfoundland and Labrador,9.0
+2019,Women,Newfoundland and Labrador,0.0
+2019,Women,Newfoundland and Labrador,0.0
+2019,Women,Newfoundland and Labrador,7.0
+2019,Women,Newfoundland and Labrador,0.0
+2019,Women,Newfoundland and Labrador,0.0
+2019,Women,Newfoundland and Labrador,1.0
+2019,Women,Newfoundland and Labrador,0.0
+2019,Women,Newfoundland and Labrador,1.0
+2019,Women,Newfoundland and Labrador,0.0
 2019,Men,Newfoundland and Labrador,37.0
+2019,Men,Newfoundland and Labrador,2.0
+2019,Men,Newfoundland and Labrador,3.0
+2019,Men,Newfoundland and Labrador,14.0
+2019,Men,Newfoundland and Labrador,0.0
+2019,Men,Newfoundland and Labrador,0.0
+2019,Men,Newfoundland and Labrador,6.0
+2019,Men,Newfoundland and Labrador,0.0
+2019,Men,Newfoundland and Labrador,12.0
+2019,Men,Newfoundland and Labrador,0.0
 2019,Women,Prince Edward Island,4.0
+2019,Women,Prince Edward Island,0.0
+2019,Women,Prince Edward Island,0.0
+2019,Women,Prince Edward Island,0.0
+2019,Women,Prince Edward Island,2.0
+2019,Women,Prince Edward Island,0.0
+2019,Women,Prince Edward Island,0.0
+2019,Women,Prince Edward Island,0.0
+2019,Women,Prince Edward Island,2.0
+2019,Women,Prince Edward Island,0.0
 2019,Men,Prince Edward Island,10.0
+2019,Men,Prince Edward Island,0.0
+2019,Men,Prince Edward Island,4.0
+2019,Men,Prince Edward Island,0.0
+2019,Men,Prince Edward Island,3.0
+2019,Men,Prince Edward Island,0.0
+2019,Men,Prince Edward Island,0.0
+2019,Men,Prince Edward Island,0.0
+2019,Men,Prince Edward Island,3.0
+2019,Men,Prince Edward Island,0.0
 2019,Women,Nova Scotia,24.0
+2019,Women,Nova Scotia,3.0
+2019,Women,Nova Scotia,0.0
+2019,Women,Nova Scotia,14.0
+2019,Women,Nova Scotia,0.0
+2019,Women,Nova Scotia,0.0
+2019,Women,Nova Scotia,0.0
+2019,Women,Nova Scotia,0.0
+2019,Women,Nova Scotia,7.0
+2019,Women,Nova Scotia,0.0
 2019,Men,Nova Scotia,60.0
+2019,Men,Nova Scotia,15.0
+2019,Men,Nova Scotia,12.0
+2019,Men,Nova Scotia,18.0
+2019,Men,Nova Scotia,7.0
+2019,Men,Nova Scotia,0.0
+2019,Men,Nova Scotia,0.0
+2019,Men,Nova Scotia,1.0
+2019,Men,Nova Scotia,7.0
+2019,Men,Nova Scotia,0.0
 2019,Women,New Brunswick,30.0
+2019,Women,New Brunswick,1.0
+2019,Women,New Brunswick,0.0
+2019,Women,New Brunswick,7.0
+2019,Women,New Brunswick,3.0
+2019,Women,New Brunswick,0.0
+2019,Women,New Brunswick,3.0
+2019,Women,New Brunswick,1.0
+2019,Women,New Brunswick,13.0
+2019,Women,New Brunswick,2.0
 2019,Men,New Brunswick,98.0
+2019,Men,New Brunswick,4.0
+2019,Men,New Brunswick,0.0
+2019,Men,New Brunswick,23.0
+2019,Men,New Brunswick,10.0
+2019,Men,New Brunswick,0.0
+2019,Men,New Brunswick,17.0
+2019,Men,New Brunswick,3.0
+2019,Men,New Brunswick,37.0
+2019,Men,New Brunswick,4.0
 2019,Women,Quebec,415.0
+2019,Women,Quebec,171.0
+2019,Women,Quebec,5.0
+2019,Women,Quebec,86.0
+2019,Women,Quebec,4.0
+2019,Women,Quebec,5.0
+2019,Women,Quebec,15.0
+2019,Women,Quebec,3.0
+2019,Women,Quebec,121.0
+2019,Women,Quebec,5.0
 2019,Men,Quebec,813.0
+2019,Men,Quebec,273.0
+2019,Men,Quebec,23.0
+2019,Men,Quebec,150.0
+2019,Men,Quebec,22.0
+2019,Men,Quebec,22.0
+2019,Men,Quebec,70.0
+2019,Men,Quebec,4.0
+2019,Men,Quebec,241.0
+2019,Men,Quebec,8.0
 2019,Women,Ontario,1174.0
+2019,Women,Ontario,593.0
+2019,Women,Ontario,18.0
+2019,Women,Ontario,214.0
+2019,Women,Ontario,14.0
+2019,Women,Ontario,5.0
+2019,Women,Ontario,23.0
+2019,Women,Ontario,39.0
+2019,Women,Ontario,233.0
+2019,Women,Ontario,35.0
 2019,Men,Ontario,2520.0
+2019,Men,Ontario,1060.0
+2019,Men,Ontario,53.0
+2019,Men,Ontario,445.0
+2019,Men,Ontario,53.0
+2019,Men,Ontario,16.0
+2019,Men,Ontario,88.0
+2019,Men,Ontario,169.0
+2019,Men,Ontario,552.0
+2019,Men,Ontario,84.0
 2019,Women,Manitoba,78.0
+2019,Women,Manitoba,41.0
+2019,Women,Manitoba,1.0
+2019,Women,Manitoba,7.0
+2019,Women,Manitoba,8.0
+2019,Women,Manitoba,0.0
+2019,Women,Manitoba,1.0
+2019,Women,Manitoba,10.0
+2019,Women,Manitoba,10.0
+2019,Women,Manitoba,0.0
 2019,Men,Manitoba,252.0
+2019,Men,Manitoba,72.0
+2019,Men,Manitoba,3.0
+2019,Men,Manitoba,53.0
+2019,Men,Manitoba,29.0
+2019,Men,Manitoba,0.0
+2019,Men,Manitoba,9.0
+2019,Men,Manitoba,27.0
+2019,Men,Manitoba,57.0
+2019,Men,Manitoba,2.0
 2019,Women,Saskatchewan,25.0
+2019,Women,Saskatchewan,3.0
+2019,Women,Saskatchewan,2.0
+2019,Women,Saskatchewan,6.0
+2019,Women,Saskatchewan,8.0
+2019,Women,Saskatchewan,1.0
+2019,Women,Saskatchewan,0.0
+2019,Women,Saskatchewan,0.0
+2019,Women,Saskatchewan,5.0
+2019,Women,Saskatchewan,0.0
 2019,Men,Saskatchewan,65.0
+2019,Men,Saskatchewan,13.0
+2019,Men,Saskatchewan,3.0
+2019,Men,Saskatchewan,17.0
+2019,Men,Saskatchewan,9.0
+2019,Men,Saskatchewan,3.0
+2019,Men,Saskatchewan,5.0
+2019,Men,Saskatchewan,5.0
+2019,Men,Saskatchewan,10.0
+2019,Men,Saskatchewan,0.0
 2019,Women,Alberta,419.0
+2019,Women,Alberta,56.0
+2019,Women,Alberta,48.0
+2019,Women,Alberta,100.0
+2019,Women,Alberta,28.0
+2019,Women,Alberta,30.0
+2019,Women,Alberta,12.0
+2019,Women,Alberta,13.0
+2019,Women,Alberta,132.0
+2019,Women,Alberta,0.0
 2019,Men,Alberta,954.0
+2019,Men,Alberta,151.0
+2019,Men,Alberta,70.0
+2019,Men,Alberta,191.0
+2019,Men,Alberta,47.0
+2019,Men,Alberta,136.0
+2019,Men,Alberta,35.0
+2019,Men,Alberta,60.0
+2019,Men,Alberta,262.0
+2019,Men,Alberta,2.0
 2019,Women,British Columbia,173.0
+2019,Women,British Columbia,64.0
+2019,Women,British Columbia,2.0
+2019,Women,British Columbia,29.0
+2019,Women,British Columbia,1.0
+2019,Women,British Columbia,6.0
+2019,Women,British Columbia,18.0
+2019,Women,British Columbia,11.0
+2019,Women,British Columbia,38.0
+2019,Women,British Columbia,4.0
 2019,Men,British Columbia,596.0
+2019,Men,British Columbia,187.0
+2019,Men,British Columbia,4.0
+2019,Men,British Columbia,128.0
+2019,Men,British Columbia,12.0
+2019,Men,British Columbia,27.0
+2019,Men,British Columbia,49.0
+2019,Men,British Columbia,67.0
+2019,Men,British Columbia,114.0
+2019,Men,British Columbia,8.0
+2019,Women,Yukon,0.0
+2019,Women,Yukon,0.0
+2019,Women,Yukon,0.0
+2019,Women,Yukon,0.0
+2019,Women,Yukon,0.0
+2019,Women,Yukon,0.0
+2019,Women,Yukon,0.0
+2019,Women,Yukon,0.0
+2019,Women,Yukon,0.0
 2019,Women,Yukon,0.0
 2019,Men,Yukon,0.0
+2019,Men,Yukon,0.0
+2019,Men,Yukon,0.0
+2019,Men,Yukon,0.0
+2019,Men,Yukon,0.0
+2019,Men,Yukon,0.0
+2019,Men,Yukon,0.0
+2019,Men,Yukon,0.0
+2019,Men,Yukon,0.0
+2019,Men,Yukon,0.0
 2019,Women,Northwest Territories,1.0
+2019,Women,Northwest Territories,0.0
+2019,Women,Northwest Territories,1.0
+2019,Women,Northwest Territories,0.0
+2019,Women,Northwest Territories,0.0
+2019,Women,Northwest Territories,0.0
+2019,Women,Northwest Territories,0.0
+2019,Women,Northwest Territories,0.0
+2019,Women,Northwest Territories,0.0
+2019,Women,Northwest Territories,0.0
 2019,Men,Northwest Territories,3.0
+2019,Men,Northwest Territories,0.0
+2019,Men,Northwest Territories,3.0
+2019,Men,Northwest Territories,0.0
+2019,Men,Northwest Territories,0.0
+2019,Men,Northwest Territories,0.0
+2019,Men,Northwest Territories,0.0
+2019,Men,Northwest Territories,0.0
+2019,Men,Northwest Territories,0.0
+2019,Men,Northwest Territories,0.0
+2019,Women,Nunavut,0.0
+2019,Women,Nunavut,0.0
+2019,Women,Nunavut,0.0
+2019,Women,Nunavut,0.0
+2019,Women,Nunavut,0.0
+2019,Women,Nunavut,0.0
+2019,Women,Nunavut,0.0
+2019,Women,Nunavut,0.0
+2019,Women,Nunavut,0.0
 2019,Women,Nunavut,0.0
 2019,Men,Nunavut,0.0
+2019,Men,Nunavut,0.0
+2019,Men,Nunavut,0.0
+2019,Men,Nunavut,0.0
+2019,Men,Nunavut,0.0
+2019,Men,Nunavut,0.0
+2019,Men,Nunavut,0.0
+2019,Men,Nunavut,0.0
+2019,Men,Nunavut,0.0
+2019,Men,Nunavut,0.0
 2020,Women,"Canada, total",2809.0
+2020,Women,"Canada, total",1163.0
+2020,Women,"Canada, total",69.0
+2020,Women,"Canada, total",513.0
+2020,Women,"Canada, total",121.0
+2020,Women,"Canada, total",48.0
+2020,Women,"Canada, total",99.0
+2020,Women,"Canada, total",109.0
+2020,Women,"Canada, total",675.0
+2020,Women,"Canada, total",12.0
 2020,Men,"Canada, total",6140.0
+2020,Men,"Canada, total",2001.0
+2020,Men,"Canada, total",175.0
+2020,Men,"Canada, total",1109.0
+2020,Men,"Canada, total",316.0
+2020,Men,"Canada, total",252.0
+2020,Men,"Canada, total",315.0
+2020,Men,"Canada, total",433.0
+2020,Men,"Canada, total",1506.0
+2020,Men,"Canada, total",33.0
 2020,Women,Newfoundland and Labrador,9.0
+2020,Women,Newfoundland and Labrador,0.0
+2020,Women,Newfoundland and Labrador,1.0
+2020,Women,Newfoundland and Labrador,5.0
+2020,Women,Newfoundland and Labrador,2.0
+2020,Women,Newfoundland and Labrador,0.0
+2020,Women,Newfoundland and Labrador,0.0
+2020,Women,Newfoundland and Labrador,0.0
+2020,Women,Newfoundland and Labrador,1.0
+2020,Women,Newfoundland and Labrador,0.0
 2020,Men,Newfoundland and Labrador,29.0
+2020,Men,Newfoundland and Labrador,3.0
+2020,Men,Newfoundland and Labrador,2.0
+2020,Men,Newfoundland and Labrador,13.0
+2020,Men,Newfoundland and Labrador,2.0
+2020,Men,Newfoundland and Labrador,0.0
+2020,Men,Newfoundland and Labrador,2.0
+2020,Men,Newfoundland and Labrador,0.0
+2020,Men,Newfoundland and Labrador,7.0
+2020,Men,Newfoundland and Labrador,0.0
 2020,Women,Prince Edward Island,6.0
+2020,Women,Prince Edward Island,0.0
+2020,Women,Prince Edward Island,1.0
+2020,Women,Prince Edward Island,0.0
+2020,Women,Prince Edward Island,2.0
+2020,Women,Prince Edward Island,0.0
+2020,Women,Prince Edward Island,1.0
+2020,Women,Prince Edward Island,0.0
+2020,Women,Prince Edward Island,2.0
+2020,Women,Prince Edward Island,0.0
 2020,Men,Prince Edward Island,13.0
+2020,Men,Prince Edward Island,0.0
+2020,Men,Prince Edward Island,2.0
+2020,Men,Prince Edward Island,0.0
+2020,Men,Prince Edward Island,3.0
+2020,Men,Prince Edward Island,0.0
+2020,Men,Prince Edward Island,4.0
+2020,Men,Prince Edward Island,0.0
+2020,Men,Prince Edward Island,4.0
+2020,Men,Prince Edward Island,0.0
 2020,Women,Nova Scotia,75.0
+2020,Women,Nova Scotia,13.0
+2020,Women,Nova Scotia,1.0
+2020,Women,Nova Scotia,23.0
+2020,Women,Nova Scotia,10.0
+2020,Women,Nova Scotia,0.0
+2020,Women,Nova Scotia,11.0
+2020,Women,Nova Scotia,0.0
+2020,Women,Nova Scotia,16.0
+2020,Women,Nova Scotia,1.0
 2020,Men,Nova Scotia,117.0
+2020,Men,Nova Scotia,8.0
+2020,Men,Nova Scotia,15.0
+2020,Men,Nova Scotia,36.0
+2020,Men,Nova Scotia,18.0
+2020,Men,Nova Scotia,0.0
+2020,Men,Nova Scotia,15.0
+2020,Men,Nova Scotia,1.0
+2020,Men,Nova Scotia,22.0
+2020,Men,Nova Scotia,2.0
 2020,Women,New Brunswick,42.0
+2020,Women,New Brunswick,2.0
+2020,Women,New Brunswick,0.0
+2020,Women,New Brunswick,12.0
+2020,Women,New Brunswick,1.0
+2020,Women,New Brunswick,1.0
+2020,Women,New Brunswick,7.0
+2020,Women,New Brunswick,6.0
+2020,Women,New Brunswick,13.0
+2020,Women,New Brunswick,0.0
 2020,Men,New Brunswick,110.0
+2020,Men,New Brunswick,2.0
+2020,Men,New Brunswick,0.0
+2020,Men,New Brunswick,30.0
+2020,Men,New Brunswick,4.0
+2020,Men,New Brunswick,3.0
+2020,Men,New Brunswick,23.0
+2020,Men,New Brunswick,17.0
+2020,Men,New Brunswick,31.0
+2020,Men,New Brunswick,0.0
 2020,Women,Quebec,433.0
+2020,Women,Quebec,199.0
+2020,Women,Quebec,1.0
+2020,Women,Quebec,88.0
+2020,Women,Quebec,12.0
+2020,Women,Quebec,6.0
+2020,Women,Quebec,17.0
+2020,Women,Quebec,6.0
+2020,Women,Quebec,103.0
+2020,Women,Quebec,1.0
 2020,Men,Quebec,826.0
+2020,Men,Quebec,346.0
+2020,Men,Quebec,1.0
+2020,Men,Quebec,134.0
+2020,Men,Quebec,31.0
+2020,Men,Quebec,17.0
+2020,Men,Quebec,50.0
+2020,Men,Quebec,9.0
+2020,Men,Quebec,232.0
+2020,Men,Quebec,6.0
 2020,Women,Ontario,1199.0
+2020,Women,Ontario,639.0
+2020,Women,Ontario,9.0
+2020,Women,Ontario,162.0
+2020,Women,Ontario,27.0
+2020,Women,Ontario,3.0
+2020,Women,Ontario,18.0
+2020,Women,Ontario,46.0
+2020,Women,Ontario,285.0
+2020,Women,Ontario,10.0
 2020,Men,Ontario,2323.0
+2020,Men,Ontario,1028.0
+2020,Men,Ontario,25.0
+2020,Men,Ontario,310.0
+2020,Men,Ontario,88.0
+2020,Men,Ontario,14.0
+2020,Men,Ontario,73.0
+2020,Men,Ontario,168.0
+2020,Men,Ontario,596.0
+2020,Men,Ontario,21.0
 2020,Women,Manitoba,76.0
+2020,Women,Manitoba,28.0
+2020,Women,Manitoba,0.0
+2020,Women,Manitoba,10.0
+2020,Women,Manitoba,11.0
+2020,Women,Manitoba,0.0
+2020,Women,Manitoba,0.0
+2020,Women,Manitoba,16.0
+2020,Women,Manitoba,11.0
+2020,Women,Manitoba,0.0
 2020,Men,Manitoba,222.0
+2020,Men,Manitoba,50.0
+2020,Men,Manitoba,0.0
+2020,Men,Manitoba,46.0
+2020,Men,Manitoba,35.0
+2020,Men,Manitoba,0.0
+2020,Men,Manitoba,9.0
+2020,Men,Manitoba,40.0
+2020,Men,Manitoba,40.0
+2020,Men,Manitoba,2.0
 2020,Women,Saskatchewan,38.0
+2020,Women,Saskatchewan,7.0
+2020,Women,Saskatchewan,1.0
+2020,Women,Saskatchewan,1.0
+2020,Women,Saskatchewan,9.0
+2020,Women,Saskatchewan,2.0
+2020,Women,Saskatchewan,1.0
+2020,Women,Saskatchewan,0.0
+2020,Women,Saskatchewan,17.0
+2020,Women,Saskatchewan,0.0
 2020,Men,Saskatchewan,91.0
+2020,Men,Saskatchewan,9.0
+2020,Men,Saskatchewan,4.0
+2020,Men,Saskatchewan,9.0
+2020,Men,Saskatchewan,15.0
+2020,Men,Saskatchewan,4.0
+2020,Men,Saskatchewan,8.0
+2020,Men,Saskatchewan,4.0
+2020,Men,Saskatchewan,38.0
+2020,Men,Saskatchewan,0.0
 2020,Women,Alberta,371.0
+2020,Women,Alberta,58.0
+2020,Women,Alberta,33.0
+2020,Women,Alberta,61.0
+2020,Women,Alberta,35.0
+2020,Women,Alberta,23.0
+2020,Women,Alberta,6.0
+2020,Women,Alberta,23.0
+2020,Women,Alberta,132.0
+2020,Women,Alberta,0.0
 2020,Men,Alberta,880.0
+2020,Men,Alberta,151.0
+2020,Men,Alberta,70.0
+2020,Men,Alberta,166.0
+2020,Men,Alberta,65.0
+2020,Men,Alberta,103.0
+2020,Men,Alberta,22.0
+2020,Men,Alberta,64.0
+2020,Men,Alberta,237.0
+2020,Men,Alberta,2.0
 2020,Women,British Columbia,146.0
+2020,Women,British Columbia,46.0
+2020,Women,British Columbia,5.0
+2020,Women,British Columbia,39.0
+2020,Women,British Columbia,3.0
+2020,Women,British Columbia,2.0
+2020,Women,British Columbia,22.0
+2020,Women,British Columbia,6.0
+2020,Women,British Columbia,23.0
+2020,Women,British Columbia,0.0
 2020,Men,British Columbia,536.0
+2020,Men,British Columbia,99.0
+2020,Men,British Columbia,6.0
+2020,Men,British Columbia,169.0
+2020,Men,British Columbia,13.0
+2020,Men,British Columbia,26.0
+2020,Men,British Columbia,58.0
+2020,Men,British Columbia,83.0
+2020,Men,British Columbia,82.0
+2020,Men,British Columbia,0.0
+2020,Women,Yukon,0.0
+2020,Women,Yukon,0.0
+2020,Women,Yukon,0.0
+2020,Women,Yukon,0.0
+2020,Women,Yukon,0.0
+2020,Women,Yukon,0.0
+2020,Women,Yukon,0.0
+2020,Women,Yukon,0.0
+2020,Women,Yukon,0.0
 2020,Women,Yukon,0.0
 2020,Men,Yukon,0.0
+2020,Men,Yukon,0.0
+2020,Men,Yukon,0.0
+2020,Men,Yukon,0.0
+2020,Men,Yukon,0.0
+2020,Men,Yukon,0.0
+2020,Men,Yukon,0.0
+2020,Men,Yukon,0.0
+2020,Men,Yukon,0.0
+2020,Men,Yukon,0.0
 2020,Women,Northwest Territories,4.0
+2020,Women,Northwest Territories,1.0
+2020,Women,Northwest Territories,0.0
+2020,Women,Northwest Territories,0.0
+2020,Women,Northwest Territories,1.0
+2020,Women,Northwest Territories,0.0
+2020,Women,Northwest Territories,0.0
+2020,Women,Northwest Territories,0.0
+2020,Women,Northwest Territories,2.0
+2020,Women,Northwest Territories,0.0
 2020,Men,Northwest Territories,10.0
+2020,Men,Northwest Territories,1.0
+2020,Men,Northwest Territories,0.0
+2020,Men,Northwest Territories,0.0
+2020,Men,Northwest Territories,3.0
+2020,Men,Northwest Territories,0.0
+2020,Men,Northwest Territories,0.0
+2020,Men,Northwest Territories,0.0
+2020,Men,Northwest Territories,6.0
+2020,Men,Northwest Territories,0.0
 2020,Women,Nunavut,0.0
+2020,Women,Nunavut,0.0
+2020,Women,Nunavut,0.0
+2020,Women,Nunavut,0.0
+2020,Women,Nunavut,0.0
+2020,Women,Nunavut,0.0
+2020,Women,Nunavut,0.0
+2020,Women,Nunavut,0.0
+2020,Women,Nunavut,0.0
+2020,Women,Nunavut,0.0
+2020,Men,Nunavut,0.0
+2020,Men,Nunavut,0.0
+2020,Men,Nunavut,0.0
+2020,Men,Nunavut,0.0
+2020,Men,Nunavut,0.0
+2020,Men,Nunavut,0.0
+2020,Men,Nunavut,0.0
+2020,Men,Nunavut,0.0
+2020,Men,Nunavut,0.0
 2020,Men,Nunavut,0.0
