@@ -44,10 +44,10 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 4. Render the dashboard locally
+**Note:** You might have to update the data.py file and update the path (remove `../` from the file path)
 ```
 python src/app.py
 ```
-**Note:** You might have to update the data.py file and update the path (remove `../` from the file path)
 5. Click on the link(`http://127.0.0.1:8052/`) or copypaste it into a browser to view the dashboard
 
 
