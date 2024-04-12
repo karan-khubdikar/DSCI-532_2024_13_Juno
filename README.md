@@ -1,4 +1,7 @@
 # DSCI-532_2024_13_Juno
+[![](https://img.shields.io/badge/language-Python-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 Members:
 - Riya Shaju
 - Gretel Tan
@@ -25,7 +28,9 @@ We have deployed our app on Render, feel free to access it [here](https://dsci-5
 
 # Demo of the app
 
-Here, you can view a gif demonstrating how our app works: [Link to GIF](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/blob/main/img/demo.gif) 
+Here, you can view a GIF demonstrating how our app works:
+
+![GIF](https://raw.githubusercontent.com/UBC-MDS/DSCI-532_2024_13_Juno/blob/main/img/demo.gif) 
 
 # Running the dashboard locally
 1. Clone the repository
