@@ -9,8 +9,6 @@ from data import df
 import callbacks
 from components import title, global_widgets, card_women, card_men, industry, line_chart, barchart, barchart2, map
 
-
-
 # Initialize the app
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
@@ -20,10 +18,8 @@ app.layout = dbc.Container([
     dbc.Row(dbc.Col(title)),
     dbc.Row([
         dbc.Col(global_widgets, md=6),
-        dbc.Col(
-            [
+        dbc.Col([
                 dbc.Card([dbc.Col(industry), dbc.Col(card_women), dbc.Col(card_men)])
-
             ],
             sm= "6"
         ),
