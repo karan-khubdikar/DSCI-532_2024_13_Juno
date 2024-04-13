@@ -60,6 +60,7 @@ def combined_chart(placeholder):
 @callback(
     Output('card-women', 'children'),
     Output('card-men', 'children'),
+    Output('card-ratio', 'children'),
     Input('province-filter', 'value'),
     Input('industry-filter', 'value'),
     Input('year-filter', 'value'),
@@ -88,7 +89,12 @@ def calculate_proportion(province_filter, industry_filter, year_filter):
         dbc.CardHeader('Overall Proportion of Men in this Subset (%)'),
         dbc.CardBody(f'{round(prop_men, 2)} %')
     ]
-    return card_women_content, card_men_content
+    card_ratio_content = [
+        dbc.CardHeader('Overall Ratio of Women to Men in this Subset'),
+        dbc.CardBody(f'{round(prop_women / prop_men, 2)}')
+    ]
+    
+    return card_women_content, card_men_content, card_ratio_content
 
 
 # Industry bar chart
