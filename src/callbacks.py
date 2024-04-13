@@ -5,6 +5,8 @@ from dash import Output, Input, callback
 import dash_bootstrap_components as dbc
 
 import geopandas as gpd
+# Adding new components in a new line so it is easier to isolate anything new which might be causing problems
+from dash import State
 
 from data import df
 from data import canadian_provinces
@@ -194,3 +196,16 @@ def update_chart(year, province):
     layout = go.Layout(barmode='group', title='Distribution by Type of corporation and Gender', xaxis=dict(title='Type of corporation'), yaxis=dict(title='Count'), width = 400)
 
     return {'data': data, 'layout': layout}
+
+# Dropdown button for information
+@callback(
+    Output("collapse", "is_open"),
+    [Input("collapse-button", "n_clicks")],
+    [State("collapse", "is_open")],  # Pass the current "state" of the component (is it open or not)
+)
+def toggle_collapse(n, is_open):
+    print(n)  # The number of times the button has been clicked
+    print(is_open)  # Whether the collapse is open or not
+    if n:
+        return not is_open
+    return is_open
