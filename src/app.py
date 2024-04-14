@@ -20,15 +20,15 @@ server = app.server
 
 app.layout = dbc.Container([
     dbc.Row([
-        dbc.Col(title),
-        dbc.Col(collapse_button, md=2),
+        dbc.Col(title, style={"margin-top": "5px"}, className="text-center"),
     ]),
+    dbc.Col(html.Div(collapse_button), className="text-center"),
     dbc.Row([
-        dbc.Col(collapse_section)
+        dbc.Col(collapse_section, style={"margin-top": "10px"})
     ]),
     # dbc.Row(dbc.Col(project_description)),
     # dbc.Row(dbc.Col(juno_explanation)),
-    dbc.Row(dbc.Col(dataset_description)),
+    dbc.Row(dbc.Col(dataset_description, style={"margin-top": "10px"})),
     dbc.Row([
         dbc.Col([
                 dbc.Card([dbc.Col(industry), dbc.Col(card_women), dbc.Col(card_men), dbc.Col(card_ratio)], style={
@@ -40,9 +40,9 @@ app.layout = dbc.Container([
     }, ),
                 dbc.Row(dbc.Col(global_widgets, width=6)),
             ],
-            sm= "6",
+            sm= "5",
         ), 
-        dbc.Col([dvc.Vega(id="map",opt = {"rendered":"svg", "actions":False}, style={'width': '60%'})], width = 3), 
+        dbc.Col([dvc.Vega(id="map",opt = {"rendered":"svg", "actions":False})], width = 1), 
     ]), 
     # bear with the squishing for now
 #     dbc.Row([

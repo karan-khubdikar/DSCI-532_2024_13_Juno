@@ -172,7 +172,18 @@ def create_chart(prov, selected_year):
         color = alt.value("#800080")
     )
 
-    chart_with_marker = (chart_with_marker + canada_tot_ratio).configure_legend(
+    text_data = pd.DataFrame({'Year': [2017], 'Ratio': [0.424134], 'label': ['National Average']})
+    text = alt.Chart(text_data).mark_text(
+        align='left', baseline='middle',
+        dx=3 ,
+        dy=-7
+    ).encode(
+        x='Year:O',
+        y='Ratio:Q',
+        text='label'
+    )
+
+    chart_with_marker = (chart_with_marker + canada_tot_ratio + text).configure_legend(
         orient='right'
     )
 
