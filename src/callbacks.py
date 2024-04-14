@@ -46,12 +46,11 @@ def combined_chart(placeholder):
     combined_chart = (map_chart+labels).properties(
         title = "Overall Proportion Across Provinces",
     ).configure_legend(
-        orient='bottom'
-    )
-    combined_chart = combined_chart.properties(
-        width=1000,
-        height=500
-    )
+        orient='right'
+    ).configure_title(
+    fontSize=25  
+)
+    combined_chart = combined_chart
     return combined_chart.to_dict()
 
 
@@ -173,7 +172,9 @@ def create_chart(prov, selected_year):
         color = alt.value("#800080")
     )
 
-    chart_with_marker = chart_with_marker + canada_tot_ratio
+    chart_with_marker = (chart_with_marker + canada_tot_ratio).configure_legend(
+        orient='right'
+    )
 
     return chart_with_marker.configure_axis(
         labelAngle=0

@@ -38,8 +38,6 @@ labels = alt.Chart(canadian_provinces).mark_text().encode(
 
 combined_chart = (map_chart+labels).properties(
     title = "Overall Proportion Across Provinces",
-).configure_legend(
-    orient='bottom'
 ).configure_title(
     fontSize=25  
 )

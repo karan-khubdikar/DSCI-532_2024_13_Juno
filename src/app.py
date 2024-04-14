@@ -21,7 +21,7 @@ server = app.server
 app.layout = dbc.Container([
     dbc.Row([
         dbc.Col(title),
-        dbc.Col(collapse_button, md=3),
+        dbc.Col(collapse_button, md=2),
     ]),
     dbc.Row([
         dbc.Col(collapse_section)
@@ -30,19 +30,21 @@ app.layout = dbc.Container([
     # dbc.Row(dbc.Col(juno_explanation)),
     dbc.Row(dbc.Col(dataset_description)),
     dbc.Row([
-        dbc.Col(global_widgets, md=6), # bear with the squishing for now
         dbc.Col([
-                dbc.Card([dbc.Col(industry), dbc.Col(card_women), dbc.Col(card_men), dbc.Col(card_ratio)])
-            ],
-            sm= "6",
-            style={
+                dbc.Card([dbc.Col(industry), dbc.Col(card_women), dbc.Col(card_men), dbc.Col(card_ratio)], style={
         'background-color': '#F5F5F5',
         'padding': 15,
-        'border-radius': 3
-    }
-        ),
+        'border-radius': 3,
+        'width':'80%',
+        'margin-bottom': '20px'
+    }, ),
+                dbc.Row(dbc.Col(global_widgets, width=6)),
+            ],
+            sm= "6",
+        ), 
+        dbc.Col([dvc.Vega(id="map",opt = {"rendered":"svg", "actions":False}, style={'width': '60%'})], width = 3), 
     ]), 
-    dbc.Row([dbc.Col(dvc.Vega(id="map",opt = {"rendered":"svg", "actions":False}))]),
+    # bear with the squishing for now
 #     dbc.Row([
 #     dbc.Col(industry, width=3),
 #     dbc.Col(card_women, width=3),

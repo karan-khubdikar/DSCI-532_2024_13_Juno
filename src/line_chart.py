@@ -71,7 +71,9 @@ def create_chart(prov, selected_year):
         y='Ratio:Q'
     )
 
-    chart_with_marker = chart_with_marker + canada_tot_ratio
+    chart_with_marker = (chart_with_marker + canada_tot_ratio).configure_legend(
+        orient='right'
+    )
 
     return chart_with_marker.configure_axis(
         labelAngle=0
