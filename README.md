@@ -30,7 +30,7 @@ We have deployed our app on Render, feel free to access it [here](https://dsci-5
 
 Here, you can view a GIF demonstrating how our app works:
 
-![GIF](https://raw.githubusercontent.com/UBC-MDS/DSCI-532_2024_13_Juno/blob/main/img/demo.gif) 
+![demo-milestone3](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/assets/85408127/a9314589-e757-4863-b308-e224125ecf55)
 
 # Running the dashboard locally
 1. Clone the repository
