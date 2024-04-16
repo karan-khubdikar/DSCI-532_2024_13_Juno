@@ -48,7 +48,7 @@ def combined_chart(year_filter):
     combined_chart = (map_chart+labels).properties(
         title = "Overall Proportion Across Provinces",
     ).configure_legend(
-        orient='right'
+        orient='top'
     ).configure_title(
     fontSize=25  
 )
@@ -119,7 +119,7 @@ def update_chart(year, province):
     if 'Women' in grouped_df.columns:
         data.append(go.Bar(x=grouped_df.index, y=grouped_df['Women'], name='Women', text=grouped_df['Women'], textposition='inside', marker=dict(color='purple')))
 
-    layout = go.Layout(barmode='group', title='<b>Distribution by Industry and Gender<b>', xaxis=dict(title='Industry'), yaxis=dict(title='Count'), width = 600, legend=dict(x=0.5, y=1.1, orientation='h'))
+    layout = go.Layout(barmode='group', title='<b>Distribution by Industry and Gender<b>', xaxis=dict(title='Type of Industry'), yaxis=dict(title='Count'), legend=dict(x=0.5, y=1.1, orientation='h'))
 
 
     return {'data': data, 'layout': layout}
@@ -214,7 +214,7 @@ def update_chart(year, province):
     if 'Women' in grouped_df.columns:
         data.append(go.Bar(x=grouped_df.index, y=grouped_df['Women'], name='Women', text=grouped_df['Women'], textposition='inside', marker=dict(color='purple')))
 
-    layout = go.Layout(barmode='group', title='<b>Distribution by Type of corporation and Gender<b>', xaxis=dict(title='Type of corporation'), yaxis=dict(title='Count'), width = 400, legend=dict(x=0.5, y=1.1, orientation='h'))
+    layout = go.Layout(barmode='group', title='<b>Distribution by Type of corporation and Gender<b>', xaxis=dict(title='Type of corporation'), yaxis=dict(title='Count'), legend=dict(x=0.5, y=1.1, orientation='h'))
 
     return {'data': data, 'layout': layout}
 

@@ -32,29 +32,34 @@ app.layout = dbc.Container([
     dbc.Row(dbc.Col(dataset_description, style={"margin-top": "10px"})),
     dbc.Row([
         dbc.Col([
-                dbc.Card([dbc.Col(industry), dbc.Col(card_women), dbc.Col(card_men), dbc.Col(card_ratio)], style={
-        'background-color': '#F5F5F5',
-        'padding': 15,
-        'border-radius': 3,
-        'width':'80%',
-        'margin-bottom': '20px'
-    }, ),
-                dbc.Row(dbc.Col(global_widgets, width=6)),
-            ],
-            sm= "5",
-        ), 
-        dbc.Col([dvc.Vega(id="map",opt = {"rendered":"svg", "actions":False})], width = 1), 
-    ]), 
-    dbc.Row([dbc.Col(dvc.Vega(id='line-chart'))]),
-    dbc.Row([dbc.Col(dcc.Graph(id='bar-chart')), dbc.Col(dcc.Graph(id='bar2-chart'))]),
+                dbc.Card([dbc.Col(industry), 
+                          dbc.Col(card_women), 
+                          dbc.Col(card_men), 
+                          dbc.Col(card_ratio)], 
+                         style={'background-color': '#F5F5F5',
+                                'padding': 5,
+                                'border-radius': 1,
+                                'width':'100%',
+                                'margin-bottom': '20px'}),
+                dbc.Row(dbc.Col(global_widgets, width=6))],md= 4), 
+        dbc.Col([dvc.Vega(id="map",opt = {"rendered":"svg", "actions":False})],
+                style={'background-color': '#F5F5F5',
+                       'padding': 15,
+                       'width':'64%'}, md = 9), 
+    ]),
+    html.P(''),
+    html.P(''),
+    dbc.Row([dbc.Col(dvc.Vega(id='line-chart'),style={"margin-top": "20px"})]),
+    dbc.Row([dbc.Col(dcc.Graph(id='bar-chart'), md =5), 
+             dbc.Col(dcc.Graph(id='bar2-chart'), md = 7)]),
     html.Footer([
         html.P(''),
         html.Hr(),       
         html.P('Last updated on April 13, 2024.', style={'font-size': '12px', 'margin-bottom': '10px'}),
         html.A('The source code can be found on GitHub.', href='https://github.com/UBC-MDS/DSCI-532_2024_13_Juno', style={'font-size': '14px', 'margin-bottom': '10px'})
     ]),
-
 ])
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='127.0.0.1', port = 8052)
