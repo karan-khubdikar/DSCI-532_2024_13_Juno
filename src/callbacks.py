@@ -119,7 +119,7 @@ def update_chart(year, province):
     if 'Women' in grouped_df.columns:
         data.append(go.Bar(x=grouped_df.index, y=grouped_df['Women'], name='Women', text=grouped_df['Women'], textposition='inside', marker=dict(color='purple')))
 
-    layout = go.Layout(barmode='group', title='Distribution by Industry and Gender', xaxis=dict(title='Industry'), yaxis=dict(title='Count'), width = 600)
+    layout = go.Layout(barmode='group', title='<b>Distribution by Industry and Gender<b>', xaxis=dict(title='Industry'), yaxis=dict(title='Count'), width = 600)
 
     return {'data': data, 'layout': layout}
 
@@ -154,7 +154,7 @@ def create_chart(prov, selected_year):
         color = alt.value("#228B22")
     ).properties(
         title='Ratio of Women v/s Men in Executive Positions in {} Over the Years'.format(prov),
-        width=1000,
+        width=1200,
         height=250
     )
 
@@ -213,7 +213,7 @@ def update_chart(year, province):
     if 'Women' in grouped_df.columns:
         data.append(go.Bar(x=grouped_df.index, y=grouped_df['Women'], name='Women', text=grouped_df['Women'], textposition='inside', marker=dict(color='purple')))
 
-    layout = go.Layout(barmode='group', title='Distribution by Type of corporation and Gender', xaxis=dict(title='Type of corporation'), yaxis=dict(title='Count'), width = 400)
+    layout = go.Layout(barmode='group', title='<b>Distribution by Type of corporation and Gender<b>', xaxis=dict(title='Type of corporation'), yaxis=dict(title='Count'), width = 400)
 
     return {'data': data, 'layout': layout}
 
