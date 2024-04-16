@@ -10,6 +10,7 @@ from dash import State
 
 from data import df
 from data import canadian_provinces
+from data import replacement_df
 
 ### Make the map of Canada
 
@@ -105,7 +106,7 @@ def calculate_proportion(province_filter, industry_filter, year_filter):
 )
 def update_chart(year, province):
     # Filter the DataFrame based on selected year and province
-    filtered_df = df[(df["REF_DATE"] == year) & (df["GEO"] == province)]
+    filtered_df = replacement_df[(replacement_df["REF_DATE"] == year) & (replacement_df["GEO"] == province) & (replacement_df["Industry"]!= "Total")]
 
     # Group the filtered DataFrame by 'Type of corporation' and 'Gender' and count occurrences
     grouped_df = filtered_df.groupby(['Industry', 'Gender'])['VALUE'].sum().unstack(fill_value=0)
@@ -199,7 +200,7 @@ def create_chart(prov, selected_year):
 )
 def update_chart(year, province):
     # Filter the DataFrame based on selected year and province
-    filtered_df = df[(df["REF_DATE"] == year) & (df["GEO"] == province) & (df["Type of corporation"] != "Total all corporations")]
+    filtered_df = replacement_df[(replacement_df["REF_DATE"] == year) & (replacement_df["GEO"] == province) & (replacement_df["Type of corporation"] != "Total")]
 
     # Group the filtered DataFrame by 'Type of corporation' and 'Gender' and count occurrences
     grouped_df = filtered_df.groupby(['Type of corporation', 'Gender'])['VALUE'].sum().unstack(fill_value=0)
