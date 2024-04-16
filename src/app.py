@@ -20,7 +20,10 @@ server = app.server
 
 app.layout = dbc.Container([
     dbc.Row([
-        dbc.Col(title, style={"margin-top": "5px"}, className="text-center"),
+        dbc.Col(title, style={"margin-top": "5px",
+                              'backgroundColor': '#800080', 
+                              'padding': 20, 'color': 'white'}, 
+                              className="text-center"),
     ]),
     dbc.Col(html.Div(collapse_button), className="text-center"),
     dbc.Row([
