@@ -121,7 +121,6 @@ def update_chart(year, province):
 
     layout = go.Layout(barmode='group', title='<b>Distribution by Industry and Gender<b>', xaxis=dict(title='Type of Industry'), yaxis=dict(title='Count'), legend=dict(x=0.5, y=1.1, orientation='h'))
 
-
     return {'data': data, 'layout': layout}
 
 # Line chart
