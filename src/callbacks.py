@@ -20,14 +20,15 @@ from data import replacement_df
     Output('map', 'spec'),
     Input('year-filter', 'value'),
 )
-def combined_chart(placeholder):
+def combined_chart(year_filter):
+    map_data = canadian_provinces[canadian_provinces['REF_DATE']==year_filter]
     hover = alt.selection_point(fields=['name'], on='pointerover', empty=False)
-    map_chart = alt.Chart(canadian_provinces, width= 800, height=600).mark_geoshape(stroke='white').project(
+    map_chart = alt.Chart(map_data, width= 800, height=600).mark_geoshape(stroke='white').project(
         'transverseMercator',
         rotate=[90, 0, 0]
     ).encode(
-        tooltip=['name','prop_women'],
-        color=alt.Color('prop_women', 
+        tooltip=['name','Women_to_Men_Ratio'],
+        color=alt.Color('Women_to_Men_Ratio', 
                         scale=alt.Scale(domain=[0, 1], 
                                         scheme='viridis'), 
                         title='Proportion of Women'),
@@ -37,7 +38,7 @@ def combined_chart(placeholder):
         hover
     )
 
-    labels = alt.Chart(canadian_provinces).mark_text().encode(
+    labels = alt.Chart(map_data).mark_text().encode(
         longitude='longitude:Q',
         latitude='latitude:Q',
         text='postal',
