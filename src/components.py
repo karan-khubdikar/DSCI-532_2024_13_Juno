@@ -2,10 +2,7 @@ from dash import Dash, dcc, callback, Output, Input, html
 import dash_bootstrap_components as dbc
 import dash_vega_components as dvc
 
-
 from data import df
-
-
 
 title = [html.H1('Juno: Gender Equality in Executive Positions Across Canada'), html.Br()]
 dataset_description = [html.P('A note on the data: As the dataset we is limited, data is not available for some subsets and territories (like Nunavut). If your subset is turning out blank charts, this could be why.',  style={'font-size': '14px'}), html.Br()]
@@ -39,17 +36,7 @@ collapse_section = dbc.Collapse(
     id="collapse",
 )
 
-# collapse_section = dbc.Collapse(
-#     html.Div([
-#         project_description,
-#         juno_explanation,
-#         dataset_description,
-#     ]),
-#     id="collapse",
-# )
-
-
-province_columns = df['GEO'].unique()#.remove('Unclassified province or territory')
+province_columns = df['GEO'].unique()
 province_columns = province_columns[province_columns!='Unclassified province or territory']
 industry_columns = df['Industry'].unique()
 time_columns = df['REF_DATE'].unique()
