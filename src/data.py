@@ -29,7 +29,7 @@ replacement_dict_2 = {'Finance': 'Finance',
                     'Other industry':'Other',
                     'Unclassified industry':'Other'}
 replacement_df['Industry'] = replacement_df['Industry'].map(replacement_dict_2)
-replacement_df.to_csv('data/filtered/filtered_data_replaced.csv', index=False)
+replacement_df.to_csv('../data/filtered/filtered_data_replaced.csv', index=False)
 
 new_df.to_csv('../data/filtered/filtered_data.csv', index=False)
 
