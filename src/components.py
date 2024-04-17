@@ -44,10 +44,10 @@ time_columns = df['REF_DATE'].unique()
 
 global_widgets = [
     dbc.Label('Filter on Province'),
-    dcc.Dropdown(id='province-filter', options=province_columns, value='Canada, total'),
+    dcc.Dropdown(id='province-filter', options=province_columns, value='Canada, total', clearable=False),
     html.Br(),
     dbc.Label('Filter on Year'),
-    dcc.Dropdown(id='year-filter', options=time_columns, value= 2016)  # Might want to consider a multi-filter option for year
+    dcc.Dropdown(id='year-filter', options=time_columns, value= 2016, clearable=False)  # Might want to consider a multi-filter option for year
 ]
 
 
@@ -56,7 +56,7 @@ card_men = dbc.Card(id='card-men')
 card_ratio = dbc.Card(id='card-ratio')
 
 
-industry = dcc.Dropdown(id='industry-filter', options=industry_columns, value='Total all industries'),
+industry = dcc.Dropdown(id='industry-filter', options=industry_columns, value='Total all industries', clearable=False),
 
 
 
