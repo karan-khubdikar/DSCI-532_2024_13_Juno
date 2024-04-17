@@ -147,8 +147,14 @@ def create_chart(prov, selected_year):
     'Ratio': prov_ratio
     })
 
+    if (prov == "Canada, total"):
+        province_gender_ratio = pd.DataFrame({
+            'Year': range(2016, 2021),
+            'Ratio': ["NA","NA","NA","NA","NA"]
+            })
+
     chart = alt.Chart(province_gender_ratio).mark_line().encode(
-        x=alt.X('Year:O', axis=alt.Axis(title='Year')),
+        x=alt.X('Year:O', axis=alt.Axis(title='Year'), scale=alt.Scale(padding=0)),
         y=alt.Y('Ratio:Q', axis=alt.Axis(title='Ratio (Women/Men)')),
         tooltip=['Ratio:Q'],
         color = alt.value("#228B22")
