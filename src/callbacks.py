@@ -19,25 +19,39 @@ from data import replacement_df
 @callback(
     Output('map', 'spec'),
     Input('year-filter', 'value'),
+    Input('province-filter', 'value')
 )
-def combined_chart(year_filter):
+def combined_chart(year_filter,province_filter):
     map_data = canadian_provinces[canadian_provinces['REF_DATE']==year_filter]
-    hover = alt.selection_point(fields=['name'], on='pointerover', empty=False)
+    select_region = alt.selection_point(fields=['Province'], name='select_region')
+    filtered_map_data = map_data[map_data['Province'] == province_filter]
+    # hover = alt.selection_point(fields=['Province'], on='pointerover', empty=False)
     map_chart = alt.Chart(map_data, width= 800, height=600).mark_geoshape(stroke='white').project(
         'transverseMercator',
         rotate=[90, 0, 0]
     ).encode(
-        tooltip=['name','Women_to_Men_Ratio'],
-        color=alt.Color('Women_to_Men_Ratio', 
-                        scale=alt.Scale(domain=[0, 1], 
+        tooltip=['Province','Percentage Women'],
+        color=alt.Color('Percentage Women', 
+                        scale=alt.Scale(domain=[0, 100], 
                                         scheme='viridis'), 
-                        title='Proportion of Women'),
-        stroke=alt.condition(hover, alt.value('white'), alt.value('#222222')),  # If hovering, stroke white, otherwise black
-        order=alt.condition(hover, alt.value(1), alt.value(0))  # Show the hovered stroke on top
+                        title='Percentage of Women'),
+        # stroke=alt.condition(hover, alt.value('white'), alt.value('#222222')),  # If hovering, stroke white, otherwise black
+        # order=alt.condition(hover, alt.value(1), alt.value(0))  # Show the hovered stroke on top
+        opacity=alt.condition(select_region, alt.value(0.3), alt.value(0.3))
     ).add_params(
-        hover
+        select_region
     )
-
+    # Highlighted province layer
+    highlighted_province = alt.Chart(filtered_map_data).mark_geoshape(stroke='white', strokeWidth=2).encode(
+        tooltip=['Province','Percentage Women'],
+        color=alt.Color('Percentage Women', 
+                        scale=alt.Scale(domain=[0, 100], 
+                                        scheme='viridis'), 
+                        title='Percentage of Women'),
+                        opacity=alt.condition(select_region, alt.value(0.9), alt.value(0.3))
+    ).transform_filter(
+        select_region
+    )
     labels = alt.Chart(map_data).mark_text().encode(
         longitude='longitude:Q',
         latitude='latitude:Q',
@@ -45,7 +59,7 @@ def combined_chart(year_filter):
         size=alt.value(15),
         opacity=alt.value(1),
     )
-    combined_chart = (map_chart+labels).properties(
+    combined_chart = (map_chart+highlighted_province +labels).properties(
         title = "Overall Proportion Across Provinces",
     ).configure_legend(
         orient='top'
@@ -54,7 +68,6 @@ def combined_chart(year_filter):
 )
     combined_chart = combined_chart
     return combined_chart.to_dict()
-
 
 #Calculate proportions for cards
 # Server side callbacks/reactivity
