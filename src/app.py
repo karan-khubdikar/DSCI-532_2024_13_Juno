@@ -49,9 +49,15 @@ app.layout = dbc.Container([
     ]),
     html.P(''),
     html.P(''),
-    dbc.Row([dbc.Col(dvc.Vega(id='line-chart'),style={"margin-top": "20px"})]),
-    dbc.Row([dbc.Col(dcc.Graph(id='bar-chart'), md =5), 
-             dbc.Col(dcc.Graph(id='bar2-chart'), md = 7)]),
+    dbc.Card([
+    dbc.Row([dbc.Col(dvc.Vega(id='line-chart'),style={"margin-top": "10px", "margin-bottom": "10px", "margin-left": "20px"})]),
+    dbc.Row([dbc.Col(dcc.Graph(id='bar-chart'),style={"margin-top": "10px", "margin-bottom": "10px"}, md =5), 
+             dbc.Col(dcc.Graph(id='bar2-chart'),style={"margin-top": "10px", "margin-bottom": "10px"}, md = 7)]),
+             ], style={'background-color': '#F5F5F5',
+                                'padding': 0,
+                                'border-radius': 1,
+                                'width':'100%',
+                                'margin-bottom': '10px'}),
     html.Footer([
         html.P(''),
         html.Hr(),       
