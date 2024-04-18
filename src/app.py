@@ -13,7 +13,7 @@ from components import dataset_description, collapse_button, collapse_section, c
 from dash import State
 
 # Initialize the app
-app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], title = "Juno")
 server = app.server
 
 # Layout
