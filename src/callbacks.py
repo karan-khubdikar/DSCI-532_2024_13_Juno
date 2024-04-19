@@ -11,16 +11,16 @@ from dash import State
 from data import df
 from data import canadian_provinces
 from data import replacement_df
+import joblib
 
-### Make the map of Canada
-
-# Plotting the map of Canada and the 
+memory = joblib.Memory("src/cache/", verbose=0)
 
 @callback(
     Output('map', 'spec'),
     Input('year-filter', 'value'),
     Input('province-filter', 'value')
 )
+
 def combined_chart(year_filter,province_filter):
     map_data = canadian_provinces[canadian_provinces['REF_DATE']==year_filter]
     select_region = alt.selection_point(fields=['Province'], name='select_region')
@@ -143,6 +143,7 @@ def update_chart(year, province):
     [Input('province-filter', 'value'),
      Input('year-filter', 'value')]
 )
+@memory.cache()
 def create_chart(prov, selected_year):
 
     filtered_df =df[(df["GEO"] == prov) & (df['Industry'] == 'Total all industries') & (df['Type of corporation'] == 'Total all corporations')]
