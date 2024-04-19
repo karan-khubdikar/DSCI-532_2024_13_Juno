@@ -1,12 +1,8 @@
 # DSCI-532_2024_13_Juno
-[![](https://img.shields.io/badge/language-Python-blue.svg)](https://www.python.org/downloads/release/python-360/)
-[![](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-Members:
-- Riya Shaju
-- Gretel Tan
-- Karan Khubdikar
-- Scout McKee
+[![](https://img.shields.io/badge/language-Python-blue.svg)](https://www.python.org/downloads/release/python-360/) [![](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+Members: - Riya Shaju - Gretel Tan - Karan Khubdikar - Scout McKee
 
 # Juno
 
@@ -16,10 +12,12 @@ Ancient Romans worshipped Juno as the queen of the gods, the female counterpart 
 
 # Motivation
 
-## The Problem: 
-Despite progress in workplace diversity initiatives, gender disparity remains a pervasive issue at the highest levels of leadership, with men disproportionately represented compared to women. 
+## The Problem:
+
+Despite progress in workplace diversity initiatives, gender disparity remains a pervasive issue at the highest levels of leadership, with men disproportionately represented compared to women.
 
 ## The Solution:
+
 Our dashboard app aims to shed light on this disparity by providing visual insights into the gender composition of top-level leadership, highlighting the need for continued efforts to achieve gender equality and foster inclusive workplaces. The dashboard allows the user to deep-dive into several aspects such as Types of Corporations, Industries, or Provinces, and also look into specific years.
 
 # How to use this app
@@ -33,28 +31,35 @@ Here, you can view a GIF demonstrating how our app works:
 ![demo-milestone3](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/assets/85408127/a9314589-e757-4863-b308-e224125ecf55)
 
 # Running the dashboard locally
-1. Clone the repository
-```
+
+1.  Clone the repository
+
+```         
 git clone https://github.com/UBC-MDS/DSCI-532_2024_13_Juno.git
 cd DSCI-532_2024_13_Juno
 ```
-2. Create a virtual environment and activate it
-```
+
+2.  Create a virtual environment and activate it
+
+```         
 conda env create -f environment.yml
 conda activate Juno_env
 ```
-3. Set the `debug=True` in the `app.py` for the development
-```
+
+3.  Set the `debug=True` in the `app.py` for the development
+
+```         
 if __name__ == "__main__":
     app.run(debug=True)
 ```
-4. Render the dashboard locally
-**Note:** You might have to update the data.py file and update the path (remove `../` from the file path)
-```
+
+4.  Render the dashboard locally
+
+```         
 python src/app.py
 ```
-5. Click on the link(`http://127.0.0.1:8052/`) or copypaste it into a browser to view the dashboard
 
+5.  Click on the link( `http://127.0.0.1:8052/`) or copy and paste it into a browser to view the dashboard
 
 # Contribute to our repo!
 

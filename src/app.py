@@ -79,7 +79,7 @@ app.layout = dbc.Container([
     html.Footer([
         html.P(''),
         html.Hr(),       
-        html.P('Last updated on April 13, 2024.', style={'font-size': '12px', 'margin-bottom': '10px'}),
+        html.P('Last updated on April 18, 2024.', style={'font-size': '12px', 'margin-bottom': '10px'}),
         html.A('The source code can be found on GitHub.', href='https://github.com/UBC-MDS/DSCI-532_2024_13_Juno', style={'font-size': '14px', 'margin-bottom': '10px'})
     ]),
 ])
