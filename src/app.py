@@ -31,7 +31,13 @@ app.layout = dbc.Container([
     ]),
     # dbc.Row(dbc.Col(dataset_description, style={"margin-top": "10px"})),
     dbc.Row([
-                dbc.Card([dbc.Col(industry, md = 4),
+                dbc.Card([
+                    dbc.CardHeader(html.H3("National averages by industry"), style={'background-color': 'white',
+                                'padding': 5,
+                                'border-radius': 1,
+                                'width':'100%',
+                                'margin-bottom': '20px'}),
+                    dbc.Col(industry, md = 'auto'),
                           dbc.Row([ 
                             dbc.Col(card_women), 
                             dbc.Col(card_men), 
@@ -52,6 +58,8 @@ app.layout = dbc.Container([
             dbc.Col(global_widget_2)])
             ]),
             ]),
+    html.Br(),
+    html.Br(),
     dbc.Row([
         dbc.Col(dvc.Vega(id='line-chart'), md =5),
                 # style={"margin-top": "10px", 

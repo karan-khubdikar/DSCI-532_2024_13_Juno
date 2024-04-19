@@ -174,7 +174,7 @@ def create_chart(prov, selected_year):
         color = alt.value("#228B22")
     ).properties(
         title='Ratio of Women v/s Men in Executive Positions in {} Over the Years'.format(prov),
-        width=400,
+        width=1200,
         height=250
     )
 
