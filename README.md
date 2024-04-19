@@ -54,7 +54,7 @@ if __name__ == "__main__":
 ```
 
 4.  Render the dashboard locally
-
+**Note:** Ensure to update the path in the `data.py` file(remove "../" from the file paths)
 ```         
 python src/app.py
 ```
