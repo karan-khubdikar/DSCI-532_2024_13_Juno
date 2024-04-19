@@ -1,7 +1,7 @@
 import pandas as pd
 import geopandas as gpd
 
-df = pd.read_csv("../data/raw/filtered_canada.csv")
+df = pd.read_csv("data/raw/filtered_canada.csv")
 new_df = df[(df["Size of enterprise"] == "Total all sizes") &
             (df["Unit of measure"] == "Number") &
             (df["Executive"] == "All officers\xa0") &
@@ -29,14 +29,14 @@ replacement_dict_2 = {'Finance': 'Finance',
                     'Other industry':'Other',
                     'Unclassified industry':'Other'}
 replacement_df['Industry'] = replacement_df['Industry'].map(replacement_dict_2)
-replacement_df.to_csv('../data/filtered/filtered_data_replaced.csv', index=False)
+replacement_df.to_csv('data/filtered/filtered_data_replaced.csv', index=False)
 
-new_df.to_csv('../data/filtered/filtered_data.csv', index=False)
+new_df.to_csv('data/filtered/filtered_data.csv', index=False)
 
-canadian_provinces = gpd.read_file('../data/filtered/map_chart_data.geojson') 
+canadian_provinces = gpd.read_file('data/filtered/map_chart_data.geojson') 
 
 #parquet files after conversion
-df = pd.read_parquet('../data/parquet/df.parquet.gzip')
-replacement_df = pd.read_parquet('../data/parquet/replacement_df.parquet.gzip')
+df = pd.read_parquet('data/parquet/df.parquet.gzip')
+replacement_df = pd.read_parquet('data/parquet/replacement_df.parquet.gzip')
 
 

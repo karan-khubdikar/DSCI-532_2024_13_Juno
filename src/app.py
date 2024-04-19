@@ -7,13 +7,13 @@ import plotly.graph_objs as go
 
 from data import df
 import callbacks
-from components import title, global_widgets, card_women, card_men, industry, line_chart, barchart, barchart2, map
+from components import title, global_widget_1, global_widget_2, card_women, card_men, industry, line_chart, barchart, barchart2, map
 # Adding new components in a new line so it is easier to isolate anything new which might be causing problems
 from components import dataset_description, collapse_button, collapse_section, card_ratio
 from dash import State
 
 # Initialize the app
-app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], title = "Juno")
+app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP], title = "Juno")
 server = app.server
 
 # Layout
@@ -29,29 +29,39 @@ app.layout = dbc.Container([
     dbc.Row([
         dbc.Col(collapse_section, style={"margin-top": "10px"})
     ]),
-    dbc.Row(dbc.Col(dataset_description, style={"margin-top": "10px"})),
+    # dbc.Row(dbc.Col(dataset_description, style={"margin-top": "10px"})),
     dbc.Row([
-        dbc.Col([
-                dbc.Card([dbc.Col(industry), 
-                          dbc.Col(card_women), 
-                          dbc.Col(card_men), 
-                          dbc.Col(card_ratio)], 
+                dbc.Card([dbc.Col(industry, md = 4),
+                          dbc.Row([ 
+                            dbc.Col(card_women), 
+                            dbc.Col(card_men), 
+                            dbc.Col(card_ratio)]),], 
                          style={'background-color': '#F5F5F5',
                                 'padding': 5,
                                 'border-radius': 1,
                                 'width':'100%',
-                                'margin-bottom': '20px'}),
-                dbc.Row(dbc.Col(global_widgets, width=6))],md= 4), 
-        dbc.Col([dvc.Vega(id="map",opt = {"rendered":"svg", "actions":False})],
+                                'margin-bottom': '20px'})]),
+    dbc.Row(dvc.Vega(id="map",opt = {"rendered":"svg", "actions":False},
                 style={'background-color': '#F5F5F5',
                        'padding': 15,
-                       'width':'64%'}, md = 9), 
+                       'width':'100%'})),
+    dbc.Row([
+        dbc.Card([
+            dbc.Row([
+            dbc.Col(global_widget_1),
+            dbc.Col(global_widget_2)])
+            ]),
+            ]),
+    dbc.Row([
+        dbc.Col(dvc.Vega(id='line-chart'), md =5),
+                # style={"margin-top": "10px", 
+                #        "margin-bottom": "10px", 
+                #        "margin-left": "20px"}, md = 5),
     ]),
     html.P(''),
     html.P(''),
     dbc.Card([
-    dbc.Row([dbc.Col(dvc.Vega(id='line-chart'),style={"margin-top": "10px", "margin-bottom": "10px", "margin-left": "20px"})]),
-    dbc.Row([dbc.Col(dcc.Graph(id='bar-chart'),style={"margin-top": "10px", "margin-bottom": "10px"}, md =5), 
+       dbc.Row([dbc.Col(dcc.Graph(id='bar-chart'),style={"margin-top": "10px", "margin-bottom": "10px"}, md =5), 
              dbc.Col(dcc.Graph(id='bar2-chart'),style={"margin-top": "10px", "margin-bottom": "10px"}, md = 7)]),
              ], style={'background-color': '#F5F5F5',
                                 'padding': 0,

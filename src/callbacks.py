@@ -26,7 +26,7 @@ def combined_chart(year_filter,province_filter):
     select_region = alt.selection_point(fields=['Province'], name='select_region')
     filtered_map_data = map_data[map_data['Province'] == province_filter]
     # hover = alt.selection_point(fields=['Province'], on='pointerover', empty=False)
-    map_chart = alt.Chart(map_data, width= 800, height=600).mark_geoshape(stroke='white').project(
+    map_chart = alt.Chart(map_data, width= 1250, height=600).mark_geoshape(stroke='white').project(
         'transverseMercator',
         rotate=[90, 0, 0]
     ).encode(
@@ -75,17 +75,18 @@ def combined_chart(year_filter,province_filter):
     Output('card-women', 'children'),
     Output('card-men', 'children'),
     Output('card-ratio', 'children'),
-    Input('province-filter', 'value'),
+    # Input('province-filter', 'value'), #Commented out as we only want it to change by industry filter
     Input('industry-filter', 'value'),
-    Input('year-filter', 'value'),
+    # Input('year-filter', 'value'), #Commented out as we only want it to change by industry filter
 )
-def calculate_proportion(province_filter, industry_filter, year_filter):
+def calculate_proportion(industry_filter):
 
     # Implementing filtering based on widgets
     # Bug with filtering everything at once - will filter step wise until I find a solution
-    geo_filtered_data = df[df['GEO'] == province_filter]
-    industry_filtered_data = geo_filtered_data[geo_filtered_data['Industry'] == industry_filter]
-    filtered_data = industry_filtered_data[industry_filtered_data['REF_DATE'] == year_filter]  # Final filter
+    # geo_filtered_data = df[df['GEO'] == province_filter]
+    industry_filtered_data = df[df['Industry'] == industry_filter]
+    # filtered_data = industry_filtered_data[industry_filtered_data['REF_DATE'] == year_filter]  # Final filter
+    filtered_data = industry_filtered_data
 
     women_card_df = filtered_data.query('Gender == "Women"')
     men_card_df = filtered_data.query('Gender == "Men"')
@@ -173,7 +174,7 @@ def create_chart(prov, selected_year):
         color = alt.value("#228B22")
     ).properties(
         title='Ratio of Women v/s Men in Executive Positions in {} Over the Years'.format(prov),
-        width=1200,
+        width=400,
         height=250
     )
 
