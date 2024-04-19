@@ -28,7 +28,7 @@ We have deployed our app on Render, feel free to access it [here](https://dsci-5
 
 Here, you can view a GIF demonstrating how our app works:
 
-![demo-milestone3](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/assets/85408127/a9314589-e757-4863-b308-e224125ecf55)
+![Recording7-ezgif com-video-to-gif-converter](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/assets/85408127/a221ea10-83c9-4399-a391-f854f490e0f1)
 
 # Running the dashboard locally
 
