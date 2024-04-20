@@ -28,7 +28,7 @@ We have deployed our app on Render, feel free to access it [here](https://dsci-5
 
 Here, you can view a GIF demonstrating how our app works:
 
-![Recording7-ezgif com-video-to-gif-converter](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/assets/85408127/a221ea10-83c9-4399-a391-f854f490e0f1)
+![GIF of our dashboard](https://github.com/UBC-MDS/DSCI-532_2024_13_Juno/assets/85408127/a221ea10-83c9-4399-a391-f854f490e0f1)
 
 # Running the dashboard locally
 
@@ -54,7 +54,9 @@ if __name__ == "__main__":
 ```
 
 4.  Render the dashboard locally
-**Note:** Ensure to update the path in the `data.py` file(remove "../" from the file paths)
+
+    **Note:** Please go to the `data.py` file in the `src` folder and update the paths by removing "../" from the file paths.
+
 ```         
 python src/app.py
 ```

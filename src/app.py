@@ -1,4 +1,4 @@
-from dash import Dash, dcc, callback, Output, Input, html
+from dash import Dash, dcc, callback, Output, Input, html, State
 import dash_bootstrap_components as dbc
 import dash_vega_components as dvc
 import altair as alt
@@ -8,9 +8,7 @@ import plotly.graph_objs as go
 from data import df
 import callbacks
 from components import title, global_widget_1, global_widget_2, card_women, card_men, industry, line_chart, barchart, barchart2, map
-# Adding new components in a new line so it is easier to isolate anything new which might be causing problems
-from components import dataset_description, collapse_button, collapse_section, card_ratio
-from dash import State
+from components import dataset_description, collapse_button, collapse_section, card_ratio  # Breaking up the line
 
 # Initialize the app
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP], title = "Juno")
@@ -79,7 +77,7 @@ app.layout = dbc.Container([
     html.Footer([
         html.P(''),
         html.Hr(),       
-        html.P('Last updated on April 18, 2024.', style={'font-size': '12px', 'margin-bottom': '10px'}),
+        html.P('Last updated on April 19, 2024.', style={'font-size': '12px', 'margin-bottom': '10px'}),
         html.A('The source code can be found on GitHub.', href='https://github.com/UBC-MDS/DSCI-532_2024_13_Juno', style={'font-size': '14px', 'margin-bottom': '10px'})
     ]),
 ])
