@@ -21,3 +21,4 @@ altair==5.3.*
 geopandas==0.14.*
 pyarrow==15.0.*
 fastparquet==2024.2.*
+joblib==1.3.*
