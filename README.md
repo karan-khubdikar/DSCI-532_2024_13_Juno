@@ -1,4 +1,4 @@
-# DSCI-532_2024_13_Juno
+# Juno-App
 
 [![](https://img.shields.io/badge/language-Python-blue.svg)](https://www.python.org/downloads/release/python-360/) [![](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
