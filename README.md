@@ -95,4 +95,4 @@ We would love for you to contribute to our app. Here's how to get started!
 
 # Get in touch
 
-Stuck in a bind? Have an idea for a useful feature, but have no idea how to implement it? We got you! Please feel free to raise an issue to let us know! Let us work together toward uncovering gender biases and empowering women :)
+Stuck in a bind? Have an idea for a useful feature, but have no idea how to implement it? We got you! Please feel free to raise an issue to let us know! Let us work together toward uncovering gender biases and empowering women.
